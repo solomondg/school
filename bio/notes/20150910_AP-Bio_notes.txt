@@ -1,0 +1,242 @@
+---- AP Bio Notes
+
+3.1-3.4 (pg 40-50)
+
+
+------------------------
+key terms:
+Macromolecules
+Emergent Properties
+Valence
+Carbon Skeletons
+Hydrocarbons
+ATP vs ADP
+Polymers, Monomers
+Enzymes
+Dehydration Reaction
+Hydrolysis
+Glycosidic Linkage
+Structural polysacchrides
+----------------------------
+
+
+Carbon Compounds and Life
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+
+Overview:
+
+
+Water = universal medium of life
+
+Hydrogen, Nitrogen, Oxygen, Sulfur, and Phosphorus ‾
+	accounts for majority of biological materials
+
+All important large molecules fall into 4 categories:
+	Carbohydrates, Lipids, Protiens, and nucleic acids
+
+Carbohydrates, protiens, nucleic acids : HUGE
+	Called Macromolecules
+           ‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+
+Macromolecules can have mass of over 100,000 daltons
+
+Has Emergent properties from elements
+
+
+&3.1: Carbon atoms can form diverse molecules by bonding to four other atoms
+
+
+The formation of bonds with Carbon:
+Carbon has 6 electrons, 4 valence
+
+Forms tetrahedral molecule shape
+109.5 degree bond angle
+
+Structured Formula:
+O=C=O
+CO2
+Two double bonds, same # electrons as 4 single bonds
+
+$ Molecular Diversity Arising from Variation in Carbon Skeletons
+
+Carbon skeletons: strings of carbon making 'core' of molecules
+
+Four ways that carbon skeletons can vary:
+
+(a) Length
+  H H              H H H 
+  | |              | | |
+H-C-C-H          H-C-C-C-H
+  | |              | | |
+  H H              H H H
+
+Ethane            Propane
+
+(b) Branching
+
+                    H
+                    |
+                  H-C-H 
+  H H H H           |
+  | | | |         H | H
+H-C-C-C-C-H       | | |
+  | | | |       H-C-C-C-H
+  H H H H         | | |
+                  H H H
+
+Butane         2-Methylpropane (isobutane)
+
+(c) Double Bond Position
+
+  H H H H      H H H H
+  | | | |      | | | |
+H-C=C-C-C-H  H-C-C=C-C-H
+  | | | |      | | | |
+  H H H H      H H H H
+
+(d) Presence of Rings
+
+                      H 
+    H   H             |
+     \ /          H   C   H
+   H  C  H         \ / \\/
+    \/ \/           C   C
+  H-C   C-H         ||  |
+  H |   | H         C   C
+   \C   C/         /\   //\
+   / \ / \        H   C   H
+  H   C   H           
+
+  Cyclohexane        Benzene
+
+Carbon chains form skeletons of most molecules
+Carbon skeletons sometimes double bonds - vary location, number
+Important in molecular complexity and diversity
+
+
+$ Chemical Groups Most Important to Life
+ ____________________________________________________________________________________________
+|Chemical Group         |   Compound Name    |               Examples                        |
+|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|
+|Hydroxyl Group (-OH)   |      Alcohol       |     Ethanol (H-C-C-OH)                        |
+|_______________________|____________________|_______________________________________________|
+|Carbonyl Group (-C=O)  |ketone if in carbon |                                               |
+|                       |skeleton, aldehyde  | Acetone, Propanal                             |
+|                       |if at end           |                                               |
+|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|
+| Carboxyl Group (-COOH)| carboxylic acid or |                                               |
+|                       | organic acid       | Acetic acid (vinegar)                         |
+|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|
+| Amino Group (-NH₂)    | Amine              | Glycine                                       |
+|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|
+|Sulfhydryl Group (-SH) | Thiol              |  Cysteine                                     |
+|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|
+|PhosphateGroup(-OPO₃⁻²)|   Organic Phosphate| Glycerol Phosphate                            |
+|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|
+| Methyl Group (-CH₃)   | Methylated Compound| 5-Methyl Cytosine                             |
+|_______________________|____________________|_______________________________________________|
+
+$ Chem. groups can contribute to mol. function by affecting shape
+
+true for steriod sex hormone Estradiol and Testosterone
+    Differs in attached chem. groups
+
+ATP: Source of energy for cellular Processes
+phosphate group - adenosine triphosphate (ATP)
+
+-Organic molecule - adenosine
+    attached to string of 3 phosphate groups
+
+
+   O   O   O
+  ||  ||  ||
+O-P-O-P-O-P-O---Adenosine
+  |   |   |
+  O   O   O
+ 
+One phosphate can be split off from H2O reaction
+HOPO₃⁻² abbreviated (4) in book
+Phosphate group in molecule abbreviated (P)
+
+ATP - (P) = diphosphate (ADP)
+$ ATP stores energy in form of potential to react w/ water (releases energy)
+(P) sub i or (P)i = inorganic phosphate
+
+                             H₂O
+(P)-(P)-(P) Adenosine (ATP) ----> (P)i + (P)-(P)-Adenosine (ADP) + Energy
+
+&3.2: Macromolecules are polymers, built from monomers
+
+polymer = long molecule consisting of many identical building blocks linked by covalent bonds
+
+repeating units = monomers
+
+monomers can have functions of their own
+
+$ The Synthesis and Breakdown of Polymers
+Chemical mechanisms that make or break down polymers = same in all cases
+facilitated & speeded up by Enzimes ( spec. macromoluecules )
+monomers connected in reaction in which two molecules covalently bonded to eachother
+     loss of h2o molecule (removed)
+     called Dehydration Reaction
+
+When bond forms between monomers, each contributes part of h2o molecule
+One provides Hydroxyl (-OH), one Hydrogen (-H)
+Repeated as monomers are added
+
+Polymers dissembled by monomers by Hydrolysis
+reverse of dehydration reaction
+
+$ The diversity of Polymers
+cell has 1000+ dif. macromolecules
+diversity huge, possible variety = limitless
+
+&3.3: Carbohydrates serve as fuel and building material
+
+Carbohydrates = both sugars and polymers of sugars
+Simplest = monosaccharides (simple sugars)
+Monomers from which more complex carbs constructed
+Disaccarides = double sugar, covalent bond
+Carbs include also polysaccharides
+sugar monomers joined by dehydration rxn
+
+$ Sugars
+Monosaccharides have mol. formulas multiple of CH₂O
+glucose = most common monosacchide = C₆H₁₂O₆
+glucose has trademarks of sugar
+carbonyl group, multiple hydroxyl groups
+sugar carbon skeleton ranges from 3-7 C long
+glucose, fructose, other sugars have 6, called Hexoses
+Trioses and Pentoses common as well
+-ose = end of most sugar names
+glucose molecules + other most 5-6 length molecules form rings
+
+Monosaccharides = major cell nutrient
+Cellular respiration = cells extracting energy from glucose
+series of reactions
+carbon sugar skeleton = raw material for sythesis of mols such as amino acids
+
+Disaccharide = 2 monosacchrides
+linked by Glycosidic Linkage (covalent bond formed between 2 monosaccs by dehydration)
+other disaccharides = sucrose, lactose, maltose
+
+$ Polysacchrides
+macromolecules
+hundred to thousand monosacchrides
+starch (amylose) and glycogen and cellulose = polymers
+starch allows storing of glucose
+glucose monomers usually = 1-4 linkages (#1 to #4 carbon)
+Amylopectin has 1-6 linkages
+
+Simplest form of starch = unbranched
+
+Animals store Glycogen - glucose polymer extensively branched
+stored in liver and muscle cells
+glycogen stores deplenished in 1 day w/o eating
+
+$ Structural polysacchrides
+organisms build from structural polysaccharides
+cellulose = major cell wall component
+global plants produce 10¹⁴ kg (100 billion tons) of cellulose per year
+
+

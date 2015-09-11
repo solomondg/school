@@ -17,6 +17,10 @@ Dehydration Reaction
 Hydrolysis
 Glycosidic Linkage
 Structural polysacchrides
+starch - alpha
+cellose - beta
+microfibrils
+Chitin
 ----------------------------
 
 
@@ -239,4 +243,102 @@ organisms build from structural polysaccharides
 cellulose = major cell wall component
 global plants produce 10¹⁴ kg (100 billion tons) of cellulose per year
 
+Cellose is polymer of glucose w/ 1-4 glycosidic linkages
+linkages different
+two slightly different ring structures
+glucose ring, hydroxyl group on #1 carbon is either above or below ring plane
+Called Alpha and Beta
+Starch, all glucose monomers = alpha
+in cellose, all glucose monomers = beta
+
+differing linkages gives distinct 3d shapes
+starch/glycogen - helical
+cellulose - straight, never branched
+
+plant cell wall - microfibrils
+cable-like
+strong building material
+
+Celluose major component of paper and only of cotton
+
+Enzimes digest starch by hydrolyzing its alpha linkages are unable to hydrolize the beta linkages b/c different shape
+
+few organisms can digest celluose
+
+Celluose stimulates intestine walls making mucus
+aids in passage of food
+cow, termite has prokaryotes and protists in stomaches for cellulose digestion
+some fungi also, helping cycle chem elements
+
+Chitin - polysacchride - used by arthropods to build exoskeletons
+also in fungi, using for cell walls
+
+siilar to cellulose, but glucose monomer has nitrogen appendage
+
+
+&3.4- Lipids are a diverse group of hydrophobic molecules
+
+lipids = 1 class of large bio moles not true polymers
+not big enough to be macromolecules
+lipids grouped together b/c hydrophobic
+include wax, some pigments,
+may have some polar bonds, mainly hydrocarbon regions
+will focus on fats, phospholipids, steroids
+
+
+$ Fats
+fats != polymer
+large molecule assembled from smaller molecules: Glycerol, Fatty Acids
+
+Glycerol is an alcohol, each of 3 carbons bears hydroxyl group
+Fatty acid has long carbon skeleton, usually 16-18 carbons
+    carbon at one end in carboxyl (gives name acid)
+    rest of skeleton consists of hydrocarbon chains
+    c-h bonds in fatty acids makes it hydrophobic
+water mols hydrogen bond to eachother, excluding fats
+
+In making fat, 3 fat acid mols joined to glycerol by an Ester Linkage (bond between hydroxyl and carboxyl group)
+    called triacylglycerol or triglyceride
+
+saturated fatty acid = no double bonds, saturated w/ hydrogen
+unsat fatty acid = 1+ double bonds, each d. bond creates kink in molecule
+fat made from sat. fatty acids = sat fat, made from unsat = unsat fat
+most animal fats = saturated
+hydrocarbon chains of fatty acids ("tails") lack double bonds
+flexiblity allows packing tighter
+
+sat. fats = lard, butter
+solid at room temp
+
+fats of plants, fishes = unsat in general
+usually liquid, called oils
+olive oil, cod liver oil example
+
+hydrogenated vegetable oil = unsat fats converted to sat fats by adding oxygen
+
+fats maj. function = energy storage
+hydrocarbon in fats similar to gasolene and about as rich in energy
+
+1 g fat has ~2x energy than polysaccharides (starch)
+plants immobile - can deal w/ bulky energy storage
+animals must move, so use fat
+
+$ Phospholipids
+essential for cell membranes
+
+simalar to fat, but w/ 2 fatty acids attached to glycerol, not 3
+hydrocarbon tails are hydrophobic, phosphate group and attachments make hydrophilic head
+
+varios small molecules can be linked to phosphate group to form variaty of phospholipids
+
+when phospholipids added to water, form double layered called bilayers, shielding hydrophobic part
+
+$ Steroids
+lipids characterized by carbon skeleton w/ 4 fused rings
+different steroids distinguished by particular chemical groups attached to rings
+cholesterol is crucial steroid
+common component of animal cell membranes, also precurser to other steroids, namely estrogen and testosterone
+cholesterol is synthesized in liver, obtained from diet
+high level cholesterol -> atherosclerosis
+sat. fact exert neg. health impact by affecting cholesterol levels.
 

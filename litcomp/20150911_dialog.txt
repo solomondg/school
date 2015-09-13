@@ -18,5 +18,6 @@ T: "I hardly think you're in a position to ask me questions right now. But I'll 
 B: "How."
 T: "How? After a few of those demonstrations you so enjoyed, some of your friends were happy to have a little chat with us. We don't just do them for the shock value, you know."
 B: "..."
-T: "I see you holding that razor. If you want to try again, I'm available any time. That is, any time I'm not hunting your friends."
-
+T: "I see you holding that razor. I don't think you have it in you, but if you want to try again, I'll need a shave when I get back from.... hunting again."
+B: "How did you know I wouldn't kill you?"
+T: "As I said, it takes more than I thought you had in you. Next time, if you're gonna try to kill someone, do your job. Nobody likes a quitter."

@@ -1,0 +1,67 @@
+Compter
+    Present:
+        je compte
+        tu comptes
+il/elle/on compte
+      nous comptons
+      vous comptez
+ ils/elles comptent
+
+    Passe Composé:
+        j'ai compté
+        tu as compté
+il/elle/on compté
+      nous compté
+      vous compté
+ ils/elles compté
+
+
+    Future Proche:
+        je compt
+        tu compt
+il/elle/on compt
+      nous compt
+      vous compt
+ ils/elles compt
+
+    Future Simple:
+        je compt   
+        tu compt   
+il/elle/on compt   
+      nous compt  
+      vous compt
+ ils/elles compt
+
+    Conditionnel:
+        je compt
+        tu compt
+il/elle/on compt
+      nous compt
+      vous compt
+ ils/elles compt
+
+    Subjonctif:
+        je compt
+        tu compt
+il/elle/on compt
+      nous compt
+      vous compt
+ ils/elles compt
+
+    Imparfait:
+        je compt
+        tu compt
+il/elle/on compt
+      nous compt
+      vous compt
+ ils/elles compt
+
+Mentir
+
+Partager
+
+Rompre
+
+Mettre
+
+Convaincre

@@ -4,7 +4,9 @@ I SHOULD PROBABLY LEARN LATEX
 3.5-3.6
 
 key terms:
-
+polypeptides
+side chain
+peptide bond
 
 & 3.5
 Proteins include a diversity of structures and functions
@@ -14,5 +16,103 @@ Comes from greek word _proteios_, meaning first or primary
 Function of organisms
 
 Can speed up chem rxns, immune syste, transport, communication, movement, structural support
+can be catalysts
 
+enzymes:
+regulates metabolism, are catalysts
+can perform function over and over
+
+humans have tens of thousands of unique protiens
+unique 3d shape
+
+Types of protiens:
+Enzymatic - accelerates select chem. rxns
+Storage - stors amino acids
+Hormonal - coordinates organism's activities
+Contractile & Motor - moves
+Defensive - protects against pathogens
+Transport - transports substances
+Receptor - responses of cell to chem. stimuli
+Structural - support
+
+Proteins are made of polypeptides
+contains one or more polypeptides, folds into specific 3d shape
+
+$ Amino Acids
+Polypeptides are made of amino acids
+20 diferent ones
+common structure
+amino acid is organic mol. w/ amino and carboxyl group
+
+Common structure:
+H   R   O
+ \  |  //
+  N-C-C
+ /  ^  \
+H   |   OH
+    alpha carbon
+
+R = R Group = Side Chain
+4 partners to alpha carbon are amino group, carboxyl group, H atom, and R group
+Side chain differs per acid
+
+Can be nonpolar/hydrophobic, polar/hydrophilic, and electrically charged/hydrophilic side chains
+
+r group can be super simple or complex
+
+$ Polypeptides
+two amino acids, carboxyl in first adjacent to amino in second
+dehydration reaction
+covalent bond formed called peptide bond
+
+repeating sequence of amino-alpha carbon-hydroxyl-peptide bond-amino.... called polypeptide backbone
+can be anywhere from 3 to 1000+ amino acids
+each specific polypeptide has unique sequence of acids
+one side of polypeptide has amino end, called N-terminus, other side had carboxyl end, called C-terminus
+side chains outnumber terminuses, so behaivor is dictated by chains
+
+$ Protein Structure and Function
+polypeptide != protien
+yarn != sweater
+
+protien  = multiple polypeptide chains folded
+
+amino acid dictates how protien folds
+
+protien chain folds spontaniously
+
+some protiens spherical (globular protiens)
+some protiens like long fibers (fibrous protiens)
+
+protien specific structure determines how it works
+can match shapes (endorphin, morphene) to fit into brain receptors like lock & key
+antibodies match to forign substances
+emegent property
+
+$ Four Levels of Protien Structure
+All protiens share 3 superimposed levels of structure:
+    Primary
+    Secondary
+    Teritary
+when protien  = 2+ polypeptide chains, there's also
+    Quatrnary
+
+primary structure = sequence of amino acids
+Secondary structure = coils and folds - regions stablalized by hydrogen bonds between polypeptide backbone atoms
+    alpha heix - coil held together by hydrogen bond between every 4th amino acid
+    beta pleated sheet - two or more segments of polypeptide next to eacheother, called beta segments, connected by hydrogen bonds across parallel segments of backbone
+teritary structure = 3d strucutre stabelized by side chain interactions
+    hydrophobic interaction - amino acids with hydrophobic/nonpolar side chains end up in clusters at protien core
+        held together w/ van der waals interactions
+    disulfide bridges - two cysteine monomers w/ sulhydryl groups are brought close together - sulfur bonds to sulfer and it rivits part of protien together
+Quaternary Structure - overall protien structure w/ multiple polypeptides
+
+Denaturation: when protien unravles and loses natural shape
+many denature when transfirred from aqueous environment to nonpolar solvent
+also high temps and some chem rxns
+loses ability to function
+can sometimes renature when chem and phys aspects restored to normal
+
+
+$ Protien folding in cell
 

@@ -237,4 +237,117 @@ il/elle/on rompait
  -------------------------------------------
 Mettre
 
+    Present:
+        je mets
+        tu mets
+il/elle/on met
+      nous mettons
+      vous mettez
+ ils/elles mettent
+
+    Passe Composé:
+         j'ai    mis 
+        tu as    mis
+il/elle/on a     mis
+      nous avons mis
+      vous avez  mis
+ ils/elles ont   mis
+                  
+
+    Future Proche:
+        je vais   mettre
+        tu vas    mettre
+il/elle/on va     mettre
+      nous allons mettre
+      vous allez  mettre
+ ils/elles vont   mettre
+
+    Future Simple:
+        je mettrai
+        tu mettras
+il/elle/on mettra
+      nous mettrons
+      vous mettrez
+ ils/elles mettrent
+
+    Conditionnel:
+        je mettrais 
+        tu mettrais
+il/elle/on mettrait
+      nous mettrions
+      vous mettriez
+ ils/elles mettrient 
+
+    Subjonctif:
+        je mette
+        tu mettes
+il/elle/on mette
+      nous mettions
+      vous mettiez
+ ils/elles mettent
+
+    Imparfait:
+        je mettais
+        tu mettais
+il/elle/on mettait
+      nous mettions
+      vous mettiez
+ ils/elles mettient
+--------------------------------------------------
 Convaincre
+    Present:
+        je convaincs
+        tu convaincs
+il/elle/on convainc
+      nous convainquons
+      vous convainquez
+ ils/elles convainquent
+
+    Passe Composé:
+         j'ai    convaincu
+        tu as    convaincu
+il/elle/on a     convaincu
+      nous avons convaincu
+      vous avez  convaincu
+ ils/elles ont   convaincu
+                  
+
+    Future Proche:
+        je vais   convaincre 
+        tu vas    convaincre 
+il/elle/on va     convaincre 
+      nous allons convaincre 
+      vous allez  convaincre 
+ ils/elles vont   convaincre 
+
+    Future Simple:
+        je convaincrai
+        tu convaincras
+il/elle/on convaincra
+      nous convaincrons
+      vous convaincrez
+ ils/elles convaincront
+
+    Conditionnel:
+        je convaincrais
+        tu convaincrais
+il/elle/on convaincrait
+      nous convaincrions
+      vous convaincriez
+ ils/elles convaincraient
+
+    Subjonctif:
+        je convainque
+        tu convainques
+il/elle/on convainque
+      nous convainquions
+      vous convainquiez
+ ils/elles convainquent
+
+    Imparfait:
+        je convainquais
+        tu convainquais
+il/elle/on convainquait
+      nous convainquions
+      vous convainquiez
+ ils/elles convainquaient

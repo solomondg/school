@@ -8,60 +8,233 @@ il/elle/on compte
  ils/elles comptent
 
     Passe Composé:
-        j'ai compté
-        tu as compté
-il/elle/on compté
-      nous compté
-      vous compté
- ils/elles compté
+         j'ai    compté
+        tu as    compté
+il/elle/on a     compté
+      nous avons compté
+      vous avez  compté
+ ils/elles ont   compté
 
 
     Future Proche:
-        je compt
-        tu compt
-il/elle/on compt
-      nous compt
-      vous compt
- ils/elles compt
+        je vais   compter
+        tu vas    compter
+il/elle/on va     compter
+      nous allons compter
+      vous allez  compter
+ ils/elles vont   compter
 
     Future Simple:
-        je compt   
-        tu compt   
-il/elle/on compt   
-      nous compt  
-      vous compt
- ils/elles compt
+        je compterai
+        tu compteras
+il/elle/on comptera
+      nous compterons
+      vous compterez
+ ils/elles compteront
 
     Conditionnel:
-        je compt
-        tu compt
-il/elle/on compt
-      nous compt
-      vous compt
- ils/elles compt
+        je compterais
+        tu compterais
+il/elle/on compterait
+      nous compteraions
+      vous compteraiez
+ ils/elles compteraient
 
     Subjonctif:
-        je compt
-        tu compt
-il/elle/on compt
-      nous compt
-      vous compt
- ils/elles compt
+        je compte
+        tu comptes
+il/elle/on compte
+      nous comptions
+      vous comptiez
+ ils/elles comptent
 
     Imparfait:
-        je compt
-        tu compt
-il/elle/on compt
-      nous compt
-      vous compt
- ils/elles compt
+        je comptais
+        tu comptais
+il/elle/on comptait
+      nous comptions
+      vous comptiez
+ ils/elles comptient
+
+-------------------------------------------------------
 
 Mentir
 
+    Present:
+        je mens
+        tu mens
+il/elle/on ment
+      nous mentons
+      vous mentez
+ ils/elles mentent
+
+    Passe Composé:
+         j'ai    menti 
+        tu as    menti
+il/elle/on a     menti
+      nous avons menti
+      vous avez  menti
+ ils/elles ont   menti
+                  
+
+    Future Proche:
+        je vais   mentir  
+        tu vas    mentir
+il/elle/on va     mentir
+      nous allons mentir
+      vous allez  mentir
+ ils/elles vont   mentir
+
+    Future Simple:
+        je mentirai 
+        tu mentiras
+il/elle/on mentira
+      nous mentirons
+      vous mentirez
+ ils/elles mentiront
+
+    Conditionnel:
+        je mentirais
+        tu mentirais
+il/elle/on mentirait
+      nous mentirions
+      vous mentiriez
+ ils/elles mentirient
+
+    Subjonctif:
+        je mente
+        tu mentes
+il/elle/on mente
+      nous mentions
+      vous mentiez
+ ils/elles mentent
+
+    Imparfait:
+        je mentais
+        tu mentais 
+il/elle/on mentait 
+      nous mentions 
+      vous mentiez
+ ils/elles mentient
+------------------------------------------------------------
 Partager
+    Present:
+        je partage 
+        tu partages
+il/elle/on partage
+      nous partageons
+      vous partagez
+ ils/elles partagent
 
+    Passe Composé:
+         j'ai    partagé
+        tu as    partagé
+il/elle/on a     partagé
+      nous avons partagé
+      vous avez  partagé
+ ils/elles ont   partagé
+                  
+
+    Future Proche:
+        je vais   partager   
+        tu vas    partager
+il/elle/on va     partager
+      nous allons partager
+      vous allez  partager
+ ils/elles vont   partager
+
+    Future Simple:
+        je partagerai
+        tu partageras
+il/elle/on partagera
+      nous partagerons
+      vous partagerez
+ ils/elles partagerent
+
+    Conditionnel:
+        je partagerais
+        tu partagerais
+il/elle/on partagerait
+      nous partagerions
+      vous partageriez
+ ils/elles partagerient
+
+    Subjonctif:
+        je partage
+        tu partages
+il/elle/on partage
+      nous partagions
+      vous partagiez
+ ils/elles partagent
+
+    Imparfait:
+        je partageais
+        tu partageais
+il/elle/on partageait
+      nous partageaions
+      vous partageaiez
+ ils/elles partageaient
+
+------------------------------------------------------------
 Rompre
+    Present:
+        je romps
+        tu romps
+il/elle/on rompt
+      nous rompons
+      vous rompez
+ ils/elles rompent
 
+    Passe Composé:
+         j'ai    rompu
+        tu as    rompu
+il/elle/on a     rompu
+      nous avons rompu
+      vous avez  rompu
+ ils/elles ont   rompu
+                  
+
+    Future Proche:
+        je vais   rompre 
+        tu vas    rompre
+il/elle/on va     rompre
+      nous allons rompre
+      vous allez  rompre
+ ils/elles vont   rompre
+
+    Future Simple:
+        je romprai
+        tu rompras
+il/elle/on rompra
+      nous romprons
+      vous romprez
+ ils/elles rompront
+
+    Conditionnel:
+        je romprais
+        tu romprais
+il/elle/on romprait
+      nous romprions
+      vous rompriez
+ ils/elles romprient
+
+    Subjonctif:
+        je rompe
+        tu rompes
+il/elle/on rompe
+      nous rompions
+      vous rompiez
+ ils/elles rompent
+
+    Imparfait:
+        je rompais
+        tu rompais
+il/elle/on rompait
+      nous rompions
+      vous rompiez
+ ils/elles rompient
+
+ -------------------------------------------
 Mettre
 
 Convaincre

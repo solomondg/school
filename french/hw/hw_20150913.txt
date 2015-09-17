@@ -351,3 +351,17 @@ il/elle/on convainquait
       nous convainquions
       vous convainquiez
  ils/elles convainquaient
+
+
+--------------------------------------------------
+
+1. Q
+2. Q
+3. Q
+4. N
+5. O
+6. Q
+7. O
+8. Q
+9. N
+10. N

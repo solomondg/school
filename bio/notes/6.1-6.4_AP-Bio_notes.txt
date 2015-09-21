@@ -1,0 +1,186 @@
+
+key terms:
+phosphorylated intermediate
+
+
+& 6.1
+
+metabolism - totality of organism's chem rxns
+
+metabolic pathway: starting molecule through rxns and enzymes becomes product
+
+some metabolic pathways release energy
+complex molecule -> simple molecule
+called catabolic pathways
+cellular respiration, for example. glucose + o2 -> co2 + h2o
+
+anabolic pathways consume energy to build complex molecules from simple ones
+example: synthesis of amino acid from simple molecules
+cantabolic and anabolic downhill and uphill respectively
+
+bioenergetics: how energy flows through organisms
+
+$ Forms of Energy
+energy is capacity to cause change
+
+well then i guess tumblr feminists don't have very much energy
+heh
+ha... ha...
+yeah.
+
+
+kinetic energy - relative motion
+thermal energy - kinetic energy w/ random atomic motion
+thermal energy in transfer is called heat
+potential energy - location or structure potential
+chemical energy - potential energy in molecular bonds
+
+Study of metabolism
+goal is to determine occuring rxns
+delta G = G sub final state - G sub initial state
+          (free energy of)    (free energy of)
+glucose into co2 and h2o has delta g of -686 kcal
+
+negative G - system must lose free energy
+free energy kinda like measure of system stability
+chem equilibrium: forward & reverse reactions happening at same rate
+
+process is spontanious and can only perform work when it is moving towards equlibrium
+
+$ Free Energy and Metabolism
+
+chem reactions can be classified as exergonic (energy outward) or endergonic (energy inward)
+exergonic rxn has net release of free energy
+
+b/c chem mixture loses energy, delta G is negative for exergonic reactions that occur spontaniously
+
+endergonic rxn takes in energy
+stores in molecules, g increases
+if chem rxn is downhill then reverse must be uphill
+
+plants get energy to convert co2 and h2o to glucose from sunlight
+
+$ Equilibrium and Metabolism
+Rxns in isolated system reach equilibrium
+chem rxns of metabolism are reversable
+would reach qeuilibrium if in isolated test tube
+metabolism never at equilibrium - defining feature of life
+living cell not at equilibrium
+catabolic pathway - releases free energy in series of rxns
+
+& 6.3
+
+cell does 3 kinds of work
+chemical work - endergonic rxns that wouldn't be spontanious like synthesis of polymers from momers
+
+transport work like moving substances
+mechanical work like beating of cilia and muscle cell contraction and chromosone movement
+
+cells manage their energy w/ key feature - energy coupling
+use of exergonic process to drive endergonic one
+ATP mediates most energy coupling in cells and usually acts as cellular source of energy
+
+$ Structure and Hydrolysis of ATP:
+
+ATP - adenosine triphosphate
+contains ribose w/ nitrogenous base adenine and chain of 3 phosphate groups
+bonded to it
+also one of the RNA nucloeside triphosphates
+binds between ATP phosphate groups can be broken w/ hydrolysis
+when it is bonded, inorganic phosphate leaves ATP
+leaves adenosine diphosphate (ADP)
+releases 7.3 kcal per mol of ATP
+
+atp important b/c energy it releases upon phosphate group removal is greater than energy other molecules could deliver
+ATP triphosphate tail like spring
+lots of negative charged atoms in ATP
+
+$ How the Hydrolysis of ATP Performs Work
+
+Cell can use heat from atp rxn to power other rxns
+
+atp sometimes transfers phosphate group to other molecule like reactant
+recipient called Phosphorylated Intermediate
+overall exergonic rxn if atp + other rxn
+
+transport and mechanical powered by atp hydrolysis
+leads to change in protien shape and often ability to bind to other molecules
+
+mechanical work:
+powered by hydrolysis of ATP
+atp hydrolysis leads to change in protien's shape and ability to bind to other molecules
+cycle:
+atp binded noncovalently to motor protien
+then, atp hydrolysed, releasing adp and pi
+then another atp molecule can bind
+resulting in movement along cytoskeletal track
+phosphorylation and dephosphorylation promote protien shape changes during cell signaling
+
+& 6.4
+Enzymes speed up metabolic reactions by lowering energy barriers
+solutionof sucrose dissolved in sterile water will sit for years at room temp w/o appreciable hydrolysys
+small amount of the enzime sucrase will hydrolyse the sugar within seconds
+
+$ The Activation Energy Barrier
+activation energy = Ea/E sub a
+activation energy frequently supplied as heat
+no hi temps in cells - denature protiens
+enzymes lower activation energy needed
+reactant an enzyme acts on is called a substrate
+enzime binds to substrate (or substrates) and forms an enzyme-substrate complex
+  
+enzyme + substrate(s) <-> enzyme-substrate complex <-> enzyme + product(s)
+
+Only restricted region of enzyme binds to substrate
+region called Active Site
+typically pocket or groove on enzyme where catalysis occurs
+As substrate enters active site, enzyme changes shape slightly
+Shape change makes active site fit more snugly around substrate
+CAlled Induced Fit
+Enhances ability to catalyse the chem. rxn.
+
+$ Catalysis in Enzyme's Active Site
+Substrate held by weak bonds
+hydrogen and ionic
+R groups of a few amino acids that make up active site catalyze the conversion of substrate to product
+most metabolic rxns are reversible
+enzyme can catalyze either forward or reverse rxn, depending on which has negative delta g
+depends mainly on relative concentrations of reactants and products
+net effect always in direction of equlibrium
+
+methods of lowering activation energy & speed up rxn:
+    active site provides template for which multiple substrates can come together in proper orientation
+    enzyme may stretch substrate towards transition state form
+    active site may provide a microenvironment, more conductive to particular type of rxn
+        example: if active site has amino w/ acidic r groups, active site may be pocket of low ph in neutral cell
+    direct parcitipitation of active site in chem rxn
+        sometimes process involves brief covalent bonding between substrate and side chain of enzyme amino acid
+
+$ Effects of local conditons on enzime activity
+activity/efficiency of enzime is affected by general environmental factors such as temperature and PH
+each enzime has optimal temp.
+mose have temp of 35-40*C
+
+many enzymes require nonprotien cofactors
+may be bound tightly to enzyme or bind losely and reversably to substrate
+cofactors of some are inorgamic, such as zinc, iron, copper
+if cofactor is organic, it's called coenzyme
+most viatmins act as coenzymes or raw materials making up coenzymes
+
+Enzyme Inhibittors
+certain chemicals inhibit action of specific enzymes
+some inhibitors resemble substrate and compete for admission to active site
+called competitive inhibitors
+reduce productivity of inhibitors
+noncompetitive inhibitors don't compete, just impede by binding to another part
+causes enzyme molecule to change shape so active site is less effective
+toxins and poisons are irreversable inhibitors
+sarin, nerve gas, binds to r group on serine, which is found on acetylcholinesterase, an enzyme important to the nervous system
+DDT adn parathion as well
+many antibiotics are inhibitors
+
+$ Evolution of Enzymes
+4000+ known enzymes
+mutation can occur in protiens
+evolution
+naturl selection

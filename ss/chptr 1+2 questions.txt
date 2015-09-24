@@ -1,0 +1,30 @@
+chptr 1. 1, 2, 3, 5, 8, 10
+chptr 2. 1, 2, 3, 5, 9, 10
+
+Chapter 1:
+1. Opportunity cost is how much of k you are giving up to do/make j. Relates to tradeoffs. New York - costs more, so less $
+2. 
+	1. Should I focus on upgrading my 3D printer or printing parts for customers?
+	2. Is it better to trade for a variety of virtual goods in the game Team Fortress 2, or just a single one?
+	3. Should I buy 10 stepper motors or 5 for projects?
+3. Describes how useful an object is.
+5. 
+	a. Macro
+	b. Micro
+	c. macro
+	d. macro
+	e. micro
+	f. macro
+8. You can't physically use it to create other things. Entrepeneurial ability is different because it has to do with using other resources
+10.
+	a. outward shift
+	b. point thing goes inside
+	c. rightwards
+	d. inwards
+
+-------------------------------------------------------------------------------------------------------
+
+Chapter 2.
+1. In a market system, somebody starts producing the object. In a command economy, the govt. orders for it to be produced
+2. Drive to maximize profits will lead to better quality products. CEOs and entrepreneurs are forced to do what the consumers want or risk bankruptcy
+3. 

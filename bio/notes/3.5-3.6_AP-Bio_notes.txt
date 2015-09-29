@@ -110,9 +110,58 @@ Quaternary Structure - overall protien structure w/ multiple polypeptides
 Denaturation: when protien unravles and loses natural shape
 many denature when transfirred from aqueous environment to nonpolar solvent
 also high temps and some chem rxns
-loses ability to function
+jloses ability to function
 can sometimes renature when chem and phys aspects restored to normal
 
 
 $ Protien folding in cell
+X-ray crystallography - makes 3d model
 
+& 3.6
+
+$ Roles of Nucleic Acids
+Amino acid sequence of polypeptide = gene
+genes consist of dna
+memes
+dna and rna
+deoxyribonucleic acid, ribonucleic acid
+dna provides directions for replication and rna synthesis
+rna provides protien synthesis
+chromosone contains one long dna molecule
+dna = computer, rna = machine/printer
+dna -> rna -> protien
+each gene on dna directs synthesis of messenger RNA, or mRNA, which interacts with protien syntehsizing material to make a protien
+carries from nucleus to cytoplasm
+other types of rna as well
+
+$ Components of Nucliec Acids
+nucliec acids are macromolecules and polymers called polynucleotides
+consiting of monomers called nucleotides
+composed of 3 parts: nitrogenous (nitrogen-carrying) base, 5 carbon sugar (pentose), and one or more phosphate groups
+
+each monomer has 1 phosphate group
+portion w/o groups called nucleoside
+
+two families of nitrogenous bases: pyrimidines and purines
+pyrimidine has 1 six-membered ring of carbon and nitrogen, Cytosine, Thymene, and Uracil
+Purine is larger, 6-membered fused to 5-membered, purines = Adenine and Guanine
+Adenine, guanine, and cytosine found in both, Thymine and Uracil found only in DNA and RNA, respectively
+in dna the sugar on nitrogen. base is deoxyribose, on RNA it's ribose
+deoxy lacks O atom on 2nd carbon in ring
+
+to diff. numbers of sugar atoms from ring atoms of nitro. base, use prime symbol
+
+add phosphate group to 5` carbon of sugar
+molecule is now nucleoside monophosphate, aka nucleotide
+
+$ Nucleotide Polymers
+adjacent nucleotides joined by a phosphodiester linkage
+consists of phosphate group binding sugars of 2 nucleotides
+binding results in backbone w/ repeating pattern of sugar-phosphate units
+one end of polymer has phosphate on 5` carbon, ther has hydroxyl on 3` carbon, refered to as 5` and 3` end.
+polynucleotide has built in directionality along sugat-phosphate bacbone
+from 5` to 3`
+all along backbone are nitrogenous base appendages
+
+sequence of bases along dna or mRNA is unique for each gene
+linear order of bases specifies amino acid sequence and therefore primary structure of a proten, specifying protien's 3d structure and cell function

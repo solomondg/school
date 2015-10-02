@@ -1,0 +1,91 @@
+key terms:
+
+& 4.1
+$ Microscopy
+
+Light microscope uses light
+Electron microscope uses electrons
+SEM = scanning electron microscopy
+makes 3d shapes
+TEM = Transmission Electron Microscopy
+2d shapes
+
+cell fractionation
+broken cells put in centrifuge
+seperates out parts
+
+$ 4.2
+organelles
+prokariotic cells don't have nucleus, just free-floating dna clump
+
+interior of cell called cytoplasm
+plasma membrane - selective barrier
+
+organelles:
+flagellum: long fibers for movement
+
+Centrosome: looks like --| or a T, region where cell's microtubules are initiated
+    not in plant cells
+
+peroxisome: various specalized metabolic functions, creates h2o2
+mitochrondrion: where cellular respiration occurs, generates most ATP
+lysosome: digestive, macromolecules hydrolysed
+golgi apparatus: synthesis, modification, sorting, and secretion of cell products
+plasma membrane: membrane enclosing the cell
+ribosomes: makes protiens, bound to rough er or free
+nucleus:
+    nuclear envelope: double membrane around nucleus, perforated by pores, continuous w/ ER
+    Nucleolus: nonmemranous structure, propduces ribosomes, nucleus has one or more nucleoli
+    Chromatin: material consisiting of dna and protiens
+        visible as individual dividing chromosones in dividing cell
+endoplasmic reticulum: network of membranous sacs and tubes, membrane synthesis, other processes, has rough and smooth regions
+central vacuole: holds plant cell shape, hydrolysis of macromolecules, stores water
+chloroplast: photosynthesis, sunlight -> sugar
+plasmodesmata: plant channels through and between plant cells
+cell wall: outer layer of cell - PLANTS ONLY
+cytoskeleton: reinforces cell shape, helps movement
+
+$ 4.3
+nucleus contains most of eukaryoitc genes, some in mitocondria & chloroplasts
+inside of double membrane / pores lined w;/ nuclear lamina, protien filament netlike arrayy, keeps shape of nucleus
+chromatin - dna and protien smaking up chromosone
+ribosomes:
+carry out protien synthesis
+two locations: free ribosomes suspended in cytosol, bound ribosomes on outside of ER or nuclear envolope
+structurally identical
+free ones generally make enzymes to catalyse sugar
+bound generally makes protiens for mebrane insertion or packaging within things like lysosomes
+
+$ 4.4
+endomembrane system - consists of nuclear envelope, golgi apparatus, lysosomes, ER, plasma membrane, and various types of vesicles and vacuoles
+membranes related through touching or transfer of membrane segments as tiny membrane sacs called vesicles
+
+Endoplasmic Reticulum/Biosynthetic Factory
+ER accounts for 1/2 total membrane
+consists of network of tubules and sacs called cisternae
+smooth er and rough er
+smooth lacks ribosomes, rough has them
+smooth ER:
+    synthesis of lipids
+    filtering of drugs and poisions/detoxification
+    storage of calcium
+    metabolism of carbohydrates
+rough ER:
+    synthesis of lipids
+
+golgi apparatus:
+"shipping and recieving center"
+recieves transport vesicles with protiens in them
+membranes of cisternao on opposite sides differing in thickness & molecular composition
+called the cis face adn trans face
+recieveing and shipping respectively
+producs of ER usually modified between cis and trans faces
+golgi can remove and substitute some sugars, and phosopholipids
+also manufactures some molecules
+    polysaccharides - many are produced by golgi
+
+lysosomes:
+membrane sac of hydrolytic enzymes
+animal cell uses to digest macromolecules
+works best in acidic environment
+

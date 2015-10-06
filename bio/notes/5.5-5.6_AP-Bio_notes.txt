@@ -1,0 +1,121 @@
+key terms:
+
+& 5.5
+Water and soluters enter and leave cell threough bilayer
+diffuse
+or transport protiens
+large molecules are "packaged" in vesicles
+requires energy
+
+$ Exocytosis
+Cell gives out molecules via fusion of vesicles w/ plasma membrane, called
+exocytosis
+transport vesicle goes from golgi apparatus to cytoskeleton to plasma membrane
+vesicle membrane and plasma membrane touch, bilayers rearranged, membranes fuse
+vesicle contents spill to outside of cell, then vesicle becomes part of cell wall
+endocytosis
+cell takes in molecules and particulate
+forms new vesicles from plasma membrane
+
+3 types of endocytosis
+phagocytosis:
+	cell engulfs particle by wrapping pseudopodie then packages w/ sack
+called a food vacuole
+
+pinocytosis:
+	cell gradually takes in drops of extracellular fluid, obtaining
+molecules inside the fluid
+
+Receptor-meditated endocytosis
+	type of pinocytosis, enables cell to take in bulk quantities
+		specific substances only
+	protien binds to solutes in extracellular fluid
+	makes little "pits"
+	forms vesicles
+
+endo and exocytosis also helps remodel plasma membrane
+
+& 5.6
+Plasma membrane helps and is key in signaling
+eukariotic cells can communicate through direct contact
+
+local regulators:
+	travels short distances, is a messenger molecule
+	cells can simultneously accept and respond to the molecule of growth factor
+		called paracrine signlaing
+synaptic signaling:
+	happens in animal nervous system
+	electrical signaling, triggers neurotransmitter molecules, which
+diffuse between nerve cell and target cell, triggering response
+
+hormones for long-distance signaling, also called endocrine signaling in
+animals
+hormone molecules travel via circulatory system
+
+3 stages of cell signaling:
+	Reception  - target cell's detection of signaling molecule
+	Transduction - Step(s) that transforms signal to form that
+		can bring about cellular response, through
+			Signal Transduction Pathway
+	Response - almost any imagionable effect
+
+$ Methods of Cell Signaling
+
+Reception: binding of signaling molecule to receptor protien
+plasma membrane plays strong role in signaling
+local and long distance signaling
+cell secrets regulator, diffuses trhough extracellular fluid
+called paracrine signaling
+
+Reception:
+Signaling modeule attaches to receptor
+molecule behaves as 'ligand', a molecule that specifically binds to another molecule
+most receptors are plasma membrane protiens
+
+receptor changes shape and relays molecules
+G-protien coupled receptor: cell-surface, works w/ help of G-protien
+binds to GTP, similar to ATP
+
+ligand-gated ion channel
+membrane receptor, has "gate" for ions
+when signaling molecule binds, it opens gate
+neurotransmitter molecules bind as ligands to ion channels
+
+intracellular receptor
+found in either cytoplasm or nucleus
+chem. messinger passtes through cell's plasma, some hydrophobic molecules can
+do so
+includes thyroid and steroid hormones
+testosterone travels through cell membrane into cells, but only
+certain ones have the receptor
+whjich brings it to nucleus and binds to specific genes
+them stimulates gene to rna, which is translated into protien
+
+transduction by cascades of molecular interactions
+transduction usually
+multistepoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+like following dominos
+original signaling molecule usually doesn't even enter cell frequently
+
+Protien Phosphorylation and Dephosphorylation
+phosphorylation and dephosphorylation are cellular mech. for regulatin
+gprotien activity
+enzyme that tansfers phosphate groups from ATP to protein is called Protien Kinase
+
+protien phosphates, enzymes that can remove phosphate groups from protiens,
+process called dephosphorylation
+phosphates provide mechanism for turning off transduction pathway when initial
+signal not present
+
+second messengers: nonprotien, water-soluable molecules or ions
+can be rapidly spread through diffusion
+nnnnn                                        vvv      
+
+Final step: response
+Many turns on/off gene(s)
+sometimes can regulate activity of protien instead of synthesis
+
+evolution of cell signaling:
+universal cellular regulation mechanisms
+same small set of cell-signaling mechanisms in diverse species
+

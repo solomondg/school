@@ -17,7 +17,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="pinkweek-fact1.svg">
+   sodipodi:docname="pinkweek-fact2.svg">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.32000001"
-     inkscape:cx="519.91315"
-     inkscape:cy="687.87462"
+     inkscape:zoom="0.64000001"
+     inkscape:cx="522.40097"
+     inkscape:cy="363.98568"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -37,7 +37,7 @@
      inkscape:window-y="25"
      inkscape:window-maximized="1"
      units="in"
-     showguides="false"
+     showguides="true"
      inkscape:snap-page="true" />
   <defs
      id="defs4">
@@ -88,71 +88,10 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-62.362205)">
-    <rect
-       style="opacity:1;fill:url(#pattern6965);stroke:none;filter:url(#filter5081)"
-       width="764.28937"
-       height="986.10657"
-       x="3.3857968"
-       y="66.329224"
-       id="rect6247" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:91.58835602px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0099c7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="55.091553"
-       y="158.47255"
-       id="text4136"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4138"
-         x="55.091553"
-         y="158.47255"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:92.5px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#0099c7;fill-opacity:1"
-         transform="translate(29.854735,-41.339844)">BHS Pink Week</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text5063"
-       y="1011.0786"
-       x="60.963135"
-       style="font-style:normal;font-weight:normal;font-size:91.58835602px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0099c7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         transform="translate(29.854735,-41.339844)"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:92.5px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#0099c7;fill-opacity:1"
-         y="1011.0786"
-         x="60.963135"
-         id="tspan5065"
-         sodipodi:role="line">10/12 – 10/16</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="384.375"
-       y="819.54968"
-       id="text5091"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5093"
-         x="384.375"
-         y="819.54968" /><tspan
-         sodipodi:role="line"
-         x="384.375"
-         y="869.54968"
-         id="tspan5095" /></text>
-    <rect
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.85496014;stroke-opacity:1"
-       id="rect5163"
-       width="724.52002"
-       height="440.77005"
-       x="20.239981"
-       y="297.9147" />
-  </g>
   <g
      id="checkerboard"
      transform="translate(0,40)">
@@ -1572,5 +1511,174 @@
          id="rect5356"
          height="50" />
     </g>
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-62.362205)">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 521.87499,632.04971 115.625,-54.6875"
+       id="path5133"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 125,555.48721 18.75,65.625 100,15.625"
+       id="path5115"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:url(#pattern6965);stroke:none;filter:url(#filter5081)"
+       width="764.28937"
+       height="986.10657"
+       x="3.3857968"
+       y="66.329224"
+       id="rect6247" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:91.58835602px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0099c7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="55.091553"
+       y="158.47255"
+       id="text4136"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4138"
+         x="55.091553"
+         y="158.47255"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:92.5px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#0099c7;fill-opacity:1"
+         transform="translate(29.854735,-41.339844)">BHS Pink Week</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5063"
+       y="1011.0786"
+       x="60.963135"
+       style="font-style:normal;font-weight:normal;font-size:91.58835602px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0099c7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         transform="translate(29.854735,-41.339844)"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:92.5px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#0099c7;fill-opacity:1"
+         y="1011.0786"
+         x="60.963135"
+         id="tspan5065"
+         sodipodi:role="line">10/12 – 10/16</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="384.375"
+       y="819.54968"
+       id="text5091"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5093"
+         x="384.375"
+         y="819.54968" /><tspan
+         sodipodi:role="line"
+         x="384.375"
+         y="869.54968"
+         id="tspan5095" /></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98698151;stroke-opacity:1"
+       id="rect5163"
+       width="724.388"
+       height="587.513"
+       x="20.30599"
+       y="297.98071" />
+    <g
+       id="g5097"
+       transform="matrix(0.96592583,-0.25881905,0.25881905,0.96592583,-43.85635,273.94208)">
+      <path
+         transform="matrix(0.70858891,0.70562154,-0.70858891,0.70562154,0,0)"
+         d="M 743.59192,164.97716 A 175.36835,175.36835 0 0 1 635.33413,326.99638 175.36835,175.36835 0 0 1 444.21942,288.9813 175.36835,175.36835 0 0 1 406.20435,97.866594 175.36835,175.36835 0 0 1 568.22358,-10.39119 l -10e-6,175.36835 z"
+         sodipodi:end="4.712389"
+         sodipodi:start="0"
+         sodipodi:ry="175.36835"
+         sodipodi:rx="175.36835"
+         sodipodi:cy="164.97716"
+         sodipodi:cx="568.22357"
+         sodipodi:type="arc"
+         id="path5091"
+         style="fill:#b8b6b1;fill-opacity:1;stroke:none;stroke-opacity:1" />
+      <path
+         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
+         d="M 25.634476,579.79742 A 176.17187,176.17187 0 0 1 -150.53739,755.9693 l -1e-5,-176.17188 z"
+         sodipodi:end="1.5707963"
+         sodipodi:start="0"
+         sodipodi:ry="176.17188"
+         sodipodi:rx="176.17188"
+         sodipodi:cy="579.79742"
+         sodipodi:cx="-150.5374"
+         sodipodi:type="arc"
+         id="path5095"
+         style="fill:#fe007e;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="72.509766"
+       y="358.92471"
+       id="text5101"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="72.509766"
+         y="358.92471"
+         id="tspan5105"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sawasdee;-inkscape-font-specification:Sawasdee">Breast cancer is the most common</tspan><tspan
+         sodipodi:role="line"
+         x="72.509766"
+         y="408.92471"
+         id="tspan5107"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sawasdee;-inkscape-font-specification:Sawasdee">cancer worldwide, occuring in</tspan><tspan
+         sodipodi:role="line"
+         x="72.509766"
+         y="458.92471"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+         id="tspan5123">22% of cancer cases in the US</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:27.39330292px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="43.114944"
+       y="544.65436"
+       id="text5111"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5113"
+         x="43.114944"
+         y="544.65436"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sawasdee;-inkscape-font-specification:Sawasdee">Other cancers</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5125"
+       y="564.65436"
+       x="563.11493"
+       style="font-style:normal;font-weight:normal;font-size:27.39330292px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+         y="564.65436"
+         x="563.11493"
+         id="tspan5127"
+         sodipodi:role="line">Breast cancer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="447.0625"
+       y="676.50934"
+       id="text5135"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5137"
+         x="447.0625"
+         y="676.50934"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sawasdee;-inkscape-font-specification:Sawasdee">22%</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5139"
+       y="714.26276"
+       x="227.0625"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+         y="714.26276"
+         x="227.0625"
+         id="tspan5141"
+         sodipodi:role="line">78%</tspan></text>
   </g>
 </svg>

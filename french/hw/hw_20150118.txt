@@ -1,0 +1,81 @@
+Conjugating s'entretenir and construire
+
+s'ententir:
+
+Present:
+je         m'entretiens
+tu         t'entretiens
+il/elle/on s'entretient
+nous nous    entretenons
+vous vous    entretenez
+ils/elles    entretiennent
+
+Passé Composé
+je me suis   entretenu(e)
+tu t'es      entretenu(e)
+il/elle/on s'est entretenu(e)
+nous nous sommes entretenu(e)s
+vous vous etes   entretenu(e)(s)
+ils/elles se sont entretenu(e)s
+
+Imparfait
+je m'entretenais
+tu t'entretenais
+il/elle/on s'entretenait
+nous nous entretenaions
+vous vous entretenaiez
+ils/elles entretenaient
+
+Future Simple
+je m'entretiendrai
+tu t'entretiendras
+il/elle/on s'entretiendra
+vous vous entretiendrez
+nous nous entretiendrons
+ils/elles s'entretiendront
+
+Conditionnel
+j'entretiendrais
+t'entretiendrais
+il/elle s'entretiendrait
+vous vous entretiendriez
+nous nous entretiendrions
+ils/elles entretiendraient
+
+
+Construire
+
+je construis
+tu construis
+il/elle/on construit
+nous construisons
+vous construisez
+ils/elles construisent
+
+j'ai construit
+tu as construit
+il/elle/on a construit
+vous avez construit
+nous avons construit
+ils/elles ont construit
+
+je construisais
+tu construisais
+il/elle/on construisait
+vous construisiez
+nous construisions
+ils/elles construisaient
+
+je construirai
+tu construiras
+il/elle/on construira
+nous construirons
+vous construirez
+ils/elles construiront
+
+je construirais
+tu construirais
+il/elle/on construirait
+nous construirions
+vous construiriez
+ils/elles construiraient

@@ -1,0 +1,30 @@
+8.2-8.3 notes
+
+8.2
+Light = photons, has properties of both particles and waves
+two types of cholorphyl - alpha and beta
+alpha - absorbs mainly blue-violet and red light
+beta  - absorbs mainly 
+
+electron in chlorophyl excited by light, releases photon and heat
+two photosystems
+electron goes in, through chain of chlorophyls, excites special pair, splitting of h2o excites other chlorophyl in pair, then excites rxn-center complex
+electron then goes, helps form ATP from ADP + Pi, and can then either keep forming ATP or NADPH
+
+can go into other photosystem (I), and excite second chlorophyl in pair (photon excites other)
+
+ATP synthesis in Mitocondria and Chlorophyl very alike
+Electrons in ETC made from organic molecules in M and from water in C
+ATP-synthase makes ATP by pumping protons (H+ ions) into thylakoid space/inner-membrane space, which drives ATP-synthase as they diffuse out
+
+8.3
+G3P - sugar made by calvin cycle
+
+calvin cycle:
+1. 3 CO2 molecules, each are affixed to 1 RuBP. RuBP breaks down, into total of 6 (2 from each) 3-Phosphoglycerate molecules
+2. each 3-P molecule gets +1 phosphate group from ATP, becomes 1,3-biphosphoglycerate, then gets electron from NADPH, also losing a phosphate group, and 1,3-B becomes G3P (6 G3P in total), and 1 G3P exits cycle, rest break down back into RuBP from donation of ATP phosphate group
+
+In most plants, initial fixation of carbon is via Rubisco, plants called C3 plants b/c first organic product of carbon fixation is a 3 carbon compound
+Some desert and arid plants turn CO2 into organic acid during day then back into CO2 during night to avoid drying out stomata
+
+C4 plants have 2 seperate cells to do this, CAM plants have 1 combined.

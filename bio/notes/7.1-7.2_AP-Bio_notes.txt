@@ -1,0 +1,21 @@
+& 7.2
+Glycolysis - glucose -> pyruvate
+Glucose is split into two 3-carbon sugars, which are then oxydized and rearranged to form Pyruvate
+two phases: energy investment and energy payoff
+         spends ATP ^           gets ATP ^
+
+Each glucose molecule gives 2 ATP and 2 NADH from glycolysis
+no carbon released as co2 during glycolysis - all in the pyruvate
+also needs no 02
+
+& 7.3
+citric acid cycle:
+glycolysis releases less than 1/4 energy
+most remains in the pyruvate
+if o2 is present, pyruvate enters mitocondria, where oxy. of glucose finishes
+happens in cytosol for procaryotic cells (bacteria)
+citric acid cycle AKA krebs cycle
+cycle has 8 steps
+each has specific enzyme
+turns Acetyl CoA into NADH, CO2, FADH2, and ATP (from ADP + Pi)
+

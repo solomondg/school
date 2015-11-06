@@ -1,0 +1,58 @@
+& 7.3
+Glycolysis releases <25% of chem. energy in Glucose
+& 7.4
+Oxydative Phosphorylation:
+Electron transport chain
+    most components protiens, are in multiprotien complexes numbered I through IV
+    Series of Redox rxns
+    Pump protons through mitocondrial wall to the intermembrane space
+    protons go down the gradient back into mitocondria through ATP-Synthase
+    which consists of the following parts:
+        Rotor
+        Stator
+        Internal Rod
+        Catalytic Knob
+    chemiosmosis
+
+    --chemiosmisis is an energy-coupling mechanism that uses energy stored in the form of an H+ gradient across a membrane to drive cellular work.
+& 7.5
+fermentation:
+fermentation doesn't use o2 or ETC
+two types of fermentation:
+alcohol and lactic acid
+
+alcohol:
+    pyruvate converted to ethanol
+    first, co2 is released from pyruvate, then pyruvate is converted to acetaldehyde
+    the, acetaldehyde is reduced by NADH to ethanol
+    yeast carries out alcohol fermentation, for example
+lactic acid:
+    pyruvate reduced directly to lactate, no co2 release
+    used to make cheese and yogurt
+    also by human cells when o2 is scarse
+fermentation yields 2 ATP molecules
+& 7.6
+versatility of catabolism:
+free glucose is not a common molecule in foods
+glycolysis can accept wide range of carbohydrates
+starch is hydrolyzed to glucose
+glycogen can be hydrolysed to glucose
+sucrose as well
+protiens can be used as glucose, same w/ fats
+
+fats:
+    digested to glycerol + fatty acids
+    glycerol -> glyceraldehyde 3-phosphate
+    metabolic sequence called Beta Oxidation breaks fatty acids down into 2 carbon acids
+    enter citric acid cycle as Acetyl CoA.
+    1 gram of fat produces >2x as much ATP as a gram of carbohydrates
+
+biosynthesis:
+cells must also get carbon skeletons
+amino acids from hydrolysis of protiens can be incorperated into organism's protiens
+humans make ~50% of amino acids by modifying compounds from citric acid cycle
+the rest are "essential amino acids," must be obtained from food
+glucose can be made from pyruvate and fatty acids from acetyl CoA, using ATP
+even 100% fat free diets can still store fats
+    intermediate compound, dihydroxyacetone phosphate, can be used to create a major precursor to fat
+energy is released, not produced, by cellular respiration

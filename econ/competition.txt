@@ -1,0 +1,41 @@
+1.
+    a. Yes. Not hard to get into the buisiness, and it's largely standardized
+    b. No. One product, can't make replicas.
+    c. Yes. Not hard to grow zuchini, and there are many farmers.
+2.
+    a. Yes. Free entry into generic drugs
+    b. No. Almost impossible entry.
+    c. No. Little standardization, hard entry.
+3.
+0  0    mc = 0   atc = 100
+10 200  mc = 200 atc = 300
+20 300  mc = 100 atc = 400
+30 480  mc = 180 atc = 580
+40 700  mc = 220 atc = 800
+50 1000 mc = 880 atc = 1100
+
+b.
+c. Yes, she will. She should produce
+d. Yes, she will. She should produce
+e. No, she won't. She should shut down.
+
+4.
+
+0      0      mc = 0     atc = 50000
+1000   5000   mc = 5000  atc = 55000
+2000   8000   mc = 3000  atc = 58000
+3000   9000   mc = 1000  atc = 59000
+4000   14000  mc = 5000  atc = 64000
+5000   20000  mc = 6000  atc = 70000
+6000   33000  mc = 13000 atc = 83000
+7000   49000  mc = 16000 atc = 99000
+8000   72000  mc = 23000 atc = 122000
+9000   99000  mc = 27000 atc = 149000
+10000  150000 mc = 51000 atc = 200000
+
+b. He will produce at 8000 units, with a revenue of $200,000. In the long run, the prices of DVDs will drop to $15.25 or so.
+
+5.
+a.
+b. He will shut down in the short run.
+c. He should produce 4000 DVDs.

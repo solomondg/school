@@ -1,0 +1,23 @@
+Chromatin - Entire complex of DNA and protiens that make up chromosones
+Sister chromatid cohesion - two sister chromatids (duplicated copies of original chromosone) attached to each other
+Cytokinesis - division of the cytoplasm
+Interphase - cell state when not undergoing miosis and/or cytokinesis
+    G1 phase (first gap)
+    G2 phase (second gap)
+    S phase (synthesis)
+Mitotic Spindle - structure consisted of microtubules and protiens
+Aster - radial array of microtubules, extends from centrosome
+Kinetochore - protien structure, one on each sister chromatid
+clevage furrow - shallow groove on cell surface starting to cinch the cell to make two smaller ones
+Binary fission - bacteria asexual reproduction
+origin of replication - place on bacteria chromosone where replication starts
+Cell Cycle Control System - cyclic set of molecules that triggers and coordinates key events in the cell cycle
+Checkpoint - control point where stop and go signals can influence the cell cycle
+G0 Phase - if signal isn't recieved, cell can go into G0 phase and not replicate/whatever
+Growth Factor - Protien released by cell to stimulate others to divide.
+Density-dependent inhibition - Phenomenon where crowded cells stop deviding
+Anchorage dependence - Most animal cells must be attached to a substratum: inside of culture flask or extracellular matrix of a tissue
+Benign tumor - (cancer) cells have too many anomalies to leave initial spot
+Malignant tumor - (cancer) cells that can spread to other tissues
+Metastasis - spread of cancer cells to locations away from the initial location
+

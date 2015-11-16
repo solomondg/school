@@ -21,3 +21,37 @@ Benign tumor - (cancer) cells have too many anomalies to leave initial spot
 Malignant tumor - (cancer) cells that can spread to other tissues
 Metastasis - spread of cancer cells to locations away from the initial location
 
+Phases of cell cycle:
+Interphase
+Miotic Phase:
+    Prophase
+    Prometaphase
+    Metaphase
+    Anaphase
+    Telophase
+    Cytophase
+
+Interphase:
+    G1:
+        Growth
+    S:
+        Synthesis of second pair of chromosones and stuff
+    G2: More growth
+
+Prophase:
+    Chromatin condenses, nucleolus disappears
+
+Prometaphase:
+    Nuclear Membrane breaks down, microtubules latch onto Kinetochores, start pulling apart
+
+Metaphase:
+    Chromosones line up at equator
+
+Anaphase:
+    Chromosones break at centomeres and move to opposite ends of cell
+
+Telophase:
+    Cleavage furrow appears, nuclear membrane reforms, chromosones turn back into chromatin, nucleoli reappear
+
+Cytophase:
+    Cell completely splits

@@ -1,0 +1,84 @@
+Chapter 10 notes:
+
+Intro:
+Children are variations, not exact lones
+Genetics = study of heridity
+DNA and stuff
+
+10.1
+
+Inheritance of genes
+Genes are parts of DNA
+Reprodutive cells - gametes
+
+Somatic cells - all cells except the gametes and their precursors
+
+Locus: a gene's specific location on a chromosone
+
+Asexual reproduction: single individual is sole parent and passes all genes to offspring w/o fusion of gametes
+Single-celled eukaryotic organisms, for example
+
+Sexual reproduction: two parents giing rise to offsprint w/ unique combination of genes
+
+10.2
+
+life cycle is generation to generation sequence o stages and stuff
+
+Somatic cells: each has 46 chromosones
+two chromosones, each of 23 types
+
+when hromosones are arragned in pairs, it's called a karyotype
+two identical chromosones called homologous chromosones
+
+XY - sex chromosones
+
+Any cell w/ two sets of chromosones is called a diploid cell
+# of chromosones in a set is called n
+
+for humans, diploid number is 46 (2n = 46)
+
+Gametes, AKA haploid cells, only have 1 sets of chromosones
+
+When haploid sperm is fused w/ haploid egg, it's called a zygote
+diploid - 2 haploid sets of chromosones
+
+meisosis - gamete production
+
+Plants and some algae have 2nd life cycle - alternation of generations
+both multicellular diploid and haploid life cyles
+Diploid stage called sporophyte
+Meiosis in that state creates spores
+Two spores fusing creates a zygote, which is the next sporophyte generation
+
+Sporophyte -> gametophyte -> sporophyte -> .....
+
+Third type in most fungi and some protists/algae:
+after fusioin of gametes, meiosis ours w/o multicellular diploid offspring developing
+meiosis produces haploid cells (1 set of chromosones), which then divide by mitosis and make either unicellular deendants or a haploid multicellular adult organism
+the haploid organism carries out further mitoses, making more cells that develop into gametes
+
+Meiosis reduces the number of chromosone sets from diploid to haploid
+two consecuitive cell divisions: Meiosis I and Meiosis II
+
+Stages of Meiosis:
+
+Meiosis I:
+    Prophase I: Duplicated homologous chromosones exchange segments
+    Metaphase I: Chromosones line up by homologous pairs
+    Anaphase I: Each pair of homologous chromosones seperates
+    Telophase I and Cytokinesis: Furrow appears, two haploid cells form
+Meiosis II:
+    Prophase II: Spindle forms, chromosones move towards metaphase II
+    Metaphase II: Chromosones positioned at metaphase plate, b/c of crossing over in Meiosis I, the two sister chromosones aren't genetically identicale
+    Anaphase II: sister chromatids pulled apart
+    Telophase II and cytokinesis: Nuclei form, chromosones begain deondensing, cytokinesis occurs
+
+10.4
+Mechanic for genetic diversity is the rnadomness of ways the stuff can be distributed
+Gametes each have drastically different gene combinations
+Crossing over produces recombinant chromosones, which carry genes derieved from two different chromosone
+In humans, 1-3 crossover events occur
+
+Random nature of fertilazation also adds to the genetic variation
+
+Advantage of sexual over asexual reproduction is genetic diversity

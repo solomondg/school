@@ -1,0 +1,55 @@
+1.
+
+Price   Qd  TR  MR
+$115    0   0   ~
+$100    1   100 100
+$83     2   166 66
+$71     3   213 47
+$63     4   247 34
+$55     5   275 28
+$48     6   288 13
+$42     7   294 6
+$37     8   296 2
+$33     9   297 1
+$29     10  290 -7
+
+Profit maximizing: $33 @ 9 units
+
+
+3.
+
+a.
+Output      TC      MC      ATC
+25000       100000  0.50    4
+50000       150000  1       3
+75000       187500  2.50    2.5
+100000      275500  3       2.755
+
+b.
+yes
+
+c.
+more?
+
+d.
+less?
+
+e.
+have we done this yet?
+
+5.
+
+a.
+no, and no.
+
+b.
+they would produce at $1
+the firm would be losing money
+they would want to leave
+
+c.
+it would make $20 million
+
+e.
+you should charge $1.50 per bag
+

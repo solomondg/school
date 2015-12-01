@@ -1,0 +1,158 @@
+11.1:
+Mendel discovered heredity - trait inhereting
+truse-breeding plants: traits are "perfectly inhereted"
+breeding of two different varaties - hybridization
+P generation - parental generation
+F1 generation - offspring (First Filial generation)
+F2, F3, etc
+
+alleles - versions of a gene
+
+if two alleles differ, traits from dominant one will be shown
+
+law of segregation
+    two alleles for a heritable cahracter segregate during gamete formation and end up in different gametes (egg or sperm only gets one of the two alleles)
+
+punnett square
+
+homozygous - pair of identical alleles
+heterozygous - pair of different alleles
+phenotype - appearence
+genotype - genetic makeup
+testcross - breeding to determine genotype
+monohybrids - heterozygotes for the particular trait/character being foillowed
+monohybrid cross - two monohybrids breeding
+
+dihybrids - hetrozygous for two characters
+dihybrid cross - two dihybrids breeding
+
+
+11.2
+Laws of Probability
+Multiplication and addition w/ monohybrid crosses
+
+Multiplication rule - chances that two coins tossed will both be head up are all chances multiplied; 1/2 * 1/2 = 1/4
+
+Addition rule - probability that any one of two or more exclusive events is calculated by adding individual probabilities
+
+one possible way of obtaining an F2 heterozygote is 1/4
+two possible ways
+1/2 chance to get heterozygote
+
+
+probablylity of YYRR = 1/4 (YY) * 1/4 (RR) = 1/16
+YyRR = 1/2 (Yy) x 1/4 (RR) = 1/8
+
+11.3
+Inheritance is usually more complex
+
+Aleles can show degrees of dominance
+complete dominance
+incomplete dominance
+codominance - seperate, distinguishable ways
+
+dominance and phenotype:
+some are codomanant
+
+most genes exist in more than two allelic forms
+ABO groups are determined by 3 alleles of same gene; IA, IB, and i.
+Everyone has two of the three
+
+Many genes have multiple phenotopic effects
+Pleiotropy
+
+Two or more genes:
+
+Epistasis - phenotopic expression of gene at one locus (specific location of one gene) can affect that of a gene at another locus (almost like a dominant phenotype)
+
+
+Polygenetic inheritance:
+quantitive characters: traits on a gradient
+polygenetic inheritance - additive effect of two or more genes on single character, converse of pleiotrophy (single geneaffecting multiple phenotypic characters)
+
+Environmental factors can affect phenotype
+Multifactorial - both genetic and environmental factors influence
+
+
+
+concept check:
+11.1:
+    1. 1:3
+    2.
+┌———————————————————————————————————————————————————┐
+│                                                   │
+│ ┌——————————┬——————┬——————┬——————┬——————┐          │
+│ │ genotype │ AT   │ At   │ aT   │ at   │          │
+│ ├——————————┼——————┼——————┼——————┼——————┤          │
+│ │ AT       │ AATT │ AATt │ AaTT │ AaTt │          │
+│ ├——————————┼——————┼——————┼——————┼——————┤          │
+│ │ At       │ AATt │ AAtt │ AaTt │ Aatt │          │
+│ ├——————————┼——————┼——————┼——————┼——————┤          │
+│ │ aT       │ AaTT │ AaTt │ aaTT │ aaTt │          │
+│ ├——————————┼——————┼——————┼——————┼——————┤          │
+│ │ at       │ AaTt │ Aatt │ aaTt │ aatt │          │
+│ └——————————┴——————┴——————┴——————┴——————┘          │
+│                                                   │
+│ AATT: 1                                           │
+│ AATt: 2                                           │
+│ AaTT: 2                                           │
+│ AAtt: 1                                           │
+│ AaTt: 4                                           │
+│ Aatt: 2                                           │
+│ aaTT: 1                                           │
+│ aaTt: 2                                           │
+│ aatt: 1                                           │
+│                                                   │
+│ A = axial, a = terminal                           │
+│ T = tall, t = dwarf                               │
+│                                                   │
+│ 6 axial, 3 terminal (1:3)                         │
+│ 6 tall, 3 dwarf (1:3)                             │
+│                                                   │
+└———————————————————————————————————————————————————┘
+
+    3.
+    YRI
+    YRi
+    YrI
+    Yri
+    yRI
+    yRi
+    yrI
+    yri
+    
+    it would have to be 8x8
+    
+    4.
+    Sexual. The gametes are produced through meiosis.
+
+11.2:
+    1.
+        1  :  0  :  1
+      homod:homor:hetero
+
+    2.
+        ┌————————————————————————┬————————————┬————————————┐
+        │ genotype : probability │ BD : 50%   │ bD : 50%   │
+        │————————————————————————┼————————————┼————————————│
+        │ BD : 50%               │ BBDD : 25% │ BbDD : 25% │
+        │————————————————————————┼————————————┼————————————│
+        │ Bd : 50%               │ BBDd : 25% │ BbDd : 25% │
+        └————————————————————————┴————————————┴————————————┘
+
+    3.
+        chance of one thing being homo. recessive
+            .50
+            chances of two = .50 * .50 = 25%
+
+11.3:
+    1. 
+    Incomplete dominance is where a gene is technically dominant over another, but doesn't have a full effect
+    Epistasis is a modifier, or overrider gene.
+    2. You'd expect 1/2 A and 1/2 B
+    3. The simplest explanation is that black and white feathers are recessive. With a grey rooster and a black hen, you'd expect grey and black offspring.
+
+11.4:
+    1. You would expect that the child would have a 25% of cystic fibrosis. If only one was the carrier, there would be a 0% chance. 
+    2. The sample size is the culprit.
+

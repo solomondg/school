@@ -1,0 +1,44 @@
+Chromosomal basis of inheritance
+
+12.1 mendelian inheritance has its physical basis in the behavior of chromosones
+
+chromosome theory of inheritence
+mendelian genes have specific loci (positions) along chromosones and it's the chromosones that undergo segregation and independant assortment
+
+12.2 Sex-linked genes have unique inheritence patterns
+x-chromosones have many genes that determine sex-unrelated characters
+most of one x chromosones in all female mammals are inactive
+inactive one condenses into Barr body - most of genes not expressed
+happens randomly
+
+12.3 linked genes tend to be inherited together due to their position on chromosone
+closer genes are more likely to be inherited together.
+
+parental types - phenotype that matches one of the two parental phenotypes
+
+recombinant types/recombinants - offspring different from one of the parents
+
+50% recombination frequency in genes located on different chromosones/unlinked
+
+linkage map - genetic map based on recombination frequencies
+map units - distance between genes; 1% recombination frequency
+
+cytogenic maps - genes location with respect to chromosal features (stained bands, etc)
+
+12.4 Genetic Disorders
+
+nondisjunction - members of pair of homologous chromosones fail to move apart
+
+if one of the aberrant gametes unites w/ normal one, the condition is called aneuploidyzzzz
+monosomy = zygote having 2n-1 chromosones
+trisomy = zygote having 2n+1 chromosones
+
+polyplody - more than two complete chromosomal sets in 1 cell
+
+deletion - chromosone part is lost
+duplication - deleted part attches to other segment
+
+inversion - reattaching in inverse orientation
+translocation - joining a nonhomologous chromosone
+
+

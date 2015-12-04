@@ -155,4 +155,3 @@ concept check:
 11.4:
     1. You would expect that the child would have a 25% of cystic fibrosis. If only one was the carrier, there would be a 0% chance. 
     2. The sample size is the culprit.
-

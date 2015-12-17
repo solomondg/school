@@ -1,0 +1,28 @@
+odds only
+
+chapter 12 end-of-chapter problems:
+1.
+a. MRP = $150, MRC = $100, they should add
+b. MRP = $150, MRC = $200, they should not
+c. MRP = $75, MRC = $100, they should not
+
+3
+a. $42.5 * 15
+b. $40 * 15
+c. Unregulated will demand 2, regulated will demand 2.
+d. Unregulated would demand 4, regulated would demand 3.
+e. Nope.
+
+Chapter 13 end-of-chapter problems:
+
+1.
+a. (30/24)%, ((30/24)/10)%
+b. (21/20)%, ((21/20)/10)%
+c. (9/4)%, ((9/4)/10)%
+d. I guess.
+
+3.
+a. The graphs are the same. Since we're assuming every worker works for an equal amount of hours, each additional one will require $3 more, same as MRC. 
+b. I didn't do question 2, and I'm not seeing any '-r' flags
+                                        (that was a linux joke)
+c. Ditto

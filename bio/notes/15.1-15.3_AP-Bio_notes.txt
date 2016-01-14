@@ -1,0 +1,97 @@
+15.1
+Bacteria often respond to environmental change by regulating transcription
+
+nat. selection favors bacteria that regulates production based on needs
+
+operon model: many genes switched on and off based on metabolic habits
+single transcription usit for tryptophan in E. coli
+when e coli must make trypotophan b/c medium lacks amino acid, all enzymes are synthesized at one time
+the switch is a seg. of dna called an operator
+controls the access of rna-polymerase to genes
+the entire cluster of on/off switch + enzyme coding segments is an operon
+if trp is turned on, rna polymerase can bind to promoter & transcribe the genes
+operon can be switched off by trp-repressor protien
+repressor binds to operator, blocking attachment of rna polymerase
+trp repressor is protein product of a regulatory gene, called trpR
+located distance from the trp operon and has own promoter
+regulatorary genes are expressed continuously  (low rate), few trp repressor always present in e coli
+operator alternates between having and not having repressor
+relative duration of repressed state is higher when more active repressor molecules are present
+trp repressor has 2 shapes - active and inactive
+symthesized in inactive
+if trypophan binds to trp repressor, repressor changes from active form that can attach to operator, turns it off
+
+
+repressible & inductible operons:
+trp operon is repressable - transcription usually on, but can be inhibited
+inductible usually off, but can be turned on
+
+repressible enzymes are usually in anabolic pathways -- synthesizing essential end products from raw materials
+inductible enyzmes are usually in catabolic pathways -- breaking down nutrient to simplet molecules
+cell avoids wasting energy by only producing when applicable
+
+positive gene regulation:
+only when lactose is present and glucose is in short supply does e. coli use lactose as energy source
+
+cyclic AMP - cAMP
+accumulates when glucose is scarce
+CAP - catabolite activator protein
+is activator - protein that binds to DNA and stimulates transcription of gene
+when camp binds to CAP, it assumes active shape and can attach to lac promoter and increase rna-polymerase's affinity for the promoter
+if gluecose increases, cAMP falls, and CAP detatches from operons
+CAP heps regulate other metabolic operons
+may affect expression of more than 100
+
+15.2
+eukaryotic gene expression is regulated at many stages
+differential gene exptressioin:
+expression of different genes by cells w/ same genome
+function of cell determines on set of genes being expressed
+
+regulation of chromatin structure:
+
+histone modification and dna methylation:
+chem modifications to histones play direct role in gene transcription
+n-terminus in nucleosom protrudes outward
+histone acelation promotes transcription by opening up chromatin
+when enzymes methelate the tails of histone protiens, different set can methylate certtain bases in dna tself
+dna methylation: 
+occurs in most living things
+long stretches of inactive dna is usaully more methalated
+epigenetic inheritance:
+
+regulation of transcripotion initiation:
+chromatin modifying enzymes provide initial control of gene expression
+
+organization - typical eukary gene
+transcription initiation complex - upsteam of promoter
+control elements - noncoding dna w/ binding sites for transcription factors
+
+role of transcription factors:
+to initiate transcription, eukary. RNA requires assitance of transcription factors -- some are essential for all protein-coding, called "general transcription factors"
+general transcription factors + rna polymerase II = low amount of transcription
+has to have additional specific transcription factors (more protiens)
+
+enhancers and specific transcription factors:
+proximal control elements - located close to the promoter
+more distant distal control elements (groupings of which are called enhancers)
+any gene may have multiple control elements
+in eukaryotes, rate of gene expression strong increases/decreases binding specific trans. factors
+
+
+mechanics of post-transcriptional regulation:
+
+rna processing:
+rna processing in nucleis and export in cytoplasm
+alternative rna splicing - different mols. produced from same transcript depending on splicing
+
+mRNA degration:
+bacterial mrna is degraded within few minutes
+in eukaryotes - minutes, hours, days, weeks
+
+initiation of translation:
+regulatory protiens can block specific sequences or structures in 5 or 3 utr
+    prevents attachments of ribisomes
+
+protien processing and degration:
+

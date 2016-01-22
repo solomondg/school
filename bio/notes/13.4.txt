@@ -1,0 +1,20 @@
+13.4 Understandfing DNA structure and repliactaiton makes gneetic nregineering possible
+
+nucleic acid hybridazation - one strand of nucleic acid pairing to similar one
+forms basis of genetic engineering
+
+DNA cloning:
+Plasmids: small circular DNA molecules, replicate seperately from chromosone
+Can insert genes into plasmids for protien productin in bacteria
+Recombinant DNA: Dna from 2 species combined in lab
+Gene cloning: making multiple copies of one gene:
+can use to amplify or produce protien
+
+using restriction enzymes to make recombinant DNA:
+restictuon enzymes: cutting and stuff DNA
+restriction site: specific string of DNA to be cut
+restriction fragments: many cut pieces of DNA
+gel electrophoresis: sorting DNA by length
+sticky end: single-stranded end, can bond  with other sticky ends
+cloning vector: DNA that can carry foreign DNA into host cell then replcicate
+

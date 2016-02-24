@@ -1,0 +1,20 @@
+14.5
+mutations: changes in genetic code
+point mutations - changes in single nucleotide pair
+if negative: heridatary disease or genetic disorder
+
+substitutions:
+nucleotide-pair substitution: replacement of one nuc. pair with another
+silent mutation: no change (CCG to CCA, for example)
+missense mutations: one amino acid to another
+
+nonsense mutation: codon into stop codon - nonsense mutation
+
+insetion and deletion
+adding or removing nucleotides - frequently disasterous
+
+frameshift mutation: alters reading frame of genetic message
+happens when number of things inseted or removed % 3 != 0
+
+mutagens: physical and chem. agents that interact with DNA
+

@@ -1,0 +1,24 @@
+1. 
+2.
+3. Price is sticky initially
+4.
+    a. demand ^
+    b. supply v
+    c. supply ^
+    d. demand ^
+    e. demand v
+    f. supply v
+    g. demand ^
+    h. supply ^
+    i. demand ^
+    j. supply ^
+5.
+    a. output ^, price =
+    b. output v, price ^
+    c. output =, price =
+    d. output v, price =
+    e. output ^, price ^
+
+8. With demand, less demand overall means less demand for the labor to make the demanded products, as well as labor itself. Price-level outcome: lower prices (ignoring drop in demand). With supply, less agg. supply can lead to lower employment as employment is a component of supply.
+9. In the 1990s and 2000s, demand was up and supply was up due to cheap oil prices and govt. spending from war in afganistan. A recession could happen due to the drop in prices due to consumer expectations, and saving instead of consuming.
+10. Investments and consumption both lower AD, and thus GDP. 

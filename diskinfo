@@ -1,0 +1,8 @@
+laptop drive: sata 1
+desktop 500gb (also raid 0): sata 2
+10k rpm: sata 3
+sshd: sata 4
+
+1 and 2 are gpt
+3 and 4 mbr
+

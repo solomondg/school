@@ -1,8 +1,15 @@
-laptop drive: sata 1
-desktop 500gb (also raid 0): sata 2
-10k rpm: sata 3
-sshd: sata 4
+1: 300GB 10k RPM drive : sata6g 1 : /dev/sda
+2: 1TB SSHD drive      : sata6g 2 : /dev/sdb
+3: 500GB Laptop drive  : sata3g 3 : /dev/sdc
+4: 320GB Laptop drive 1: sata3g 1 : /dev/sdd
+5: 320GB Laptop drive 2: sata3g 2 : /dev/sde
 
-1 and 2 are gpt
-3 and 4 mbr
 
+
+RAID 0: 1+2+3
+
+GPT:
+    RAID 0 (1, 2, 3)
+
+MBR:
+    4, 5

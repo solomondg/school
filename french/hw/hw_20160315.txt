@@ -1,0 +1,48 @@
+Verbs to conjugate:
+s'améliorer, attirer, augmenter, prédire, appartenir à, s'enrichir, parvenir à
+
+|-------------+------------+-------------------+-------------------------+--------------------+---------------------------|
+|             | subject    | present           | passé composé           | imparfait          | plus-que-parfait          |
+|-------------+------------+-------------------+-------------------------+--------------------+---------------------------|
+| s'améliorer | je         | m'améliore        | me suis amélioré        | m'améliorais       | m'étais amélioré          |
+|             | tu         | t'améliores       | t'es amélioré           | t'améliorais       | t'étais amélioré          |
+|             | il/elle/on | s'améliore        | s'est amélioré          | s'améliorait       | s'étais amélioré          |
+|             | nous       | nous améliorons   | nous sommes amélioré    | nous amélioraions  | nous étaions amélioré     |
+|             | vous       | vous améliorez    | vous sont amélioré      | vous amélioraiez   | vous étaiez amélioré      |
+|             | ils/elles  | s'améliorent      | se sont amélioré        | s'amélioraient     | s'étaient amélioré        |
+|-------------+------------+-------------------+-------------------------+--------------------+---------------------------|
+| attirer     | je         | attire            | ai attiré               | attirais           | avais attiré              |
+|             | tu         | attires           | as attiré               | attirais           | avais attiré              |
+|             | il/elle/on | attire            | a attiré                | attirait           | avait attiré              |
+|             | nous       | attirons          | avons attiré            | attirions          | avaions attiré            |
+|             | vous       | attirez           | avez attiré             | attiriez           | avaiez attiré             |
+|             | ils/elles  | attirent          | ont attiré              | attiraient         | avaient attiré            |
+|-------------+------------+-------------------+-------------------------+--------------------+---------------------------|
+| prédire     | je         | prédis            | ai prédit               | prédisais          | avais prédit              |
+|             | tu         | prédis            | as prédit               | prédisais          | avais prédit              |
+|             | il/elle/on | prédit            | a prédit                | prédisait          | avait prédit              |
+|             | nous       | prédisons         | avons prédit            | prédisions         | avaions prédit            |
+|             | vous       | prédisez          | avez prédit             | prédisiez          | avaiez prédit             |
+|             | ils/elles  | prédisent         | ont prédit              | prédisaient        | avaient prédit            |
+|-------------+------------+-------------------+-------------------------+--------------------+---------------------------|
+| appartenir  | je         | appartiens        | ai appartenu            | appartenais        | avais appartenu           |
+|             | tu         | appartiens        | as appartenu            | appartenais        | avais appartenu           |
+|             | il/elle/on | appartient        | a appartenu             | appartenait        | avait appartenu           |
+|             | nous       | appartenons       | avons appartenu         | appartenions       | avaions appartenu         |
+|             | vous       | appartenez        | avez appartenu          | apparteniez        | avaiez appartenu          |
+|             | ils/elles  | appartiennent     | ont appartenu           | appartenient       | avaient appartenu         |
+|-------------+------------+-------------------+-------------------------+--------------------+---------------------------|
+| s'enrichir  | je         | m'enrichis        | me suis enrichi(e)      | m'enrichissais     | m'étais enrichi(e)        |
+|             | tu         | t'enrichis        | t'es enrichi(e)         | t'enrichissais     | t'étais enrichi(e)        |
+|             | il/elle/on | s'enrichit        | s'est enrichi(e)        | s'enrichissait     | s'était enrichi(e)        |
+|             | nous       | nous enrichissons | nous sommes enrichi(e)s | nous enrichissions | nous étaions enrichi(e)s  |
+|             | vous       | vous enrichissez  | vous êtez enrichi(e)(s) | vous enrichissiez  | vous étaiez enrichi(e)(s) |
+|             | ils/elles  | s'enrichissent    | se sont enrichi(e)s     | s'enrichissaient   | s'étaient enrichi(e)s     |
+|-------------+------------+-------------------+-------------------------+--------------------+---------------------------|
+| parvenir    | je         | parviens          | suis parvenu            | parvenais          | étais parvenu(e)          |
+|             | tu         | parviens          | es parvenu              | parvenais          | étais parvenu(e)          |
+|             | il/elle/on | parvient          | est parvenu             | parvenait          | était parvenu(e)          |
+|             | nous       | parvenons         | sommes parvenu          | parvenions         | étaions parvenu(e)s       |
+|             | vous       | parvenez          | êtez parvenu            | parveniez          | étaiez parvenu(e)(s)      |
+|             | ils/elles  | parviennent       | sont parvenu            | parvenaient        | étaient parvenu(e)s       |
+|-------------+------------+-------------------+-------------------------+--------------------+---------------------------|

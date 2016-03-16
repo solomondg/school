@@ -1,0 +1,74 @@
+35: The Immune System
+Pathogen: disease-causing
+
+innate - barrier defenses
+adaptive also
+lysozyme (enzyme) acts as chem. defence
+
+insects/invertabrates:
+	hemocytes, essentially white blood cells
+	phagocytosis
+
+vertebrates:
+barrier defenses: skin, mucus, etc
+cellular innate defenses: phagocytic cells
+
+TLR: Toll-like receptor
+
+Neutrophils: attracted by infected tissue
+Macrophages: Large phagocytic cell
+
+dendric cells: stimulate adaptive immunity
+eosinophils: discharge destructive enzymes
+
+natural killer cells: circulate throughout body, detect virus and cancer cells, release chems. that lead to cell death
+
+pathogen recognition triggers release of peptides
+
+interferons: protiens that interfere w/ viral functions
+complement system: ~30 protiens in blood plasma
+
+inflammatory response: swelling
+histamine, stored in mast cells near skin
+
+
+
+35.2:
+t and b cells - lymphocytes
+
+thymus, organ above heart
+any substance illicintg responce called antigen
+epitope - antigenic determinant
+
+4 polypeptide chains, 2 heavy 2 light
+
+protien secreted called antibody
+
+antigen recognition by t cells:
+a chain and b chain
+major histompatibility complex (MHC) molecule: host protien displaying fragment on cell surface
+
+immunoioglobin gene:
+
+proliferation of b/t cells:
+effector cells: short lived that taker immediatelyt
+plasma: secret antibodies
+memory: long-lived can turn into effector
+primary immune peaaks 10
+secondary 2-7 days
+
+35.3: active defends against infections
+
+cytotoxin t cells: latch on and inject perforin
+
+active immunityL arise when pathogens attack
+passive: when antibodies produces by other individual
+
+monoclonal antibodies: articifical-ish
+immune rejection: accidentally foreign, similar to allergens
+
+autoimmune: attacks own body
+
+immune system avoidance:
+antigeneitc variation: rapid changes in appearance
+

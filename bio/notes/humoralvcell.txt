@@ -1,0 +1,7 @@
+|-----------------------------------+----------------------------------------------|
+| Humoral                           | Cell-mediated                                |
+|-----------------------------------+----------------------------------------------|
+| Antigens bind to B cells          | Infected cells bind to T cells               |
+| Helper T scales stimulate B cells | Interleukins stimulate T cells               |
+| Plasma cels produce antibodies    | Cytotoxic cell binds and kills infected cell |
+|-----------------------------------+----------------------------------------------|

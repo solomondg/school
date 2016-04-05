@@ -1,0 +1,41 @@
+|------------------------------------------------+------------------------------------------|
+| Pour                                           | Contre                                   |
+|------------------------------------------------+------------------------------------------|
+| Il est just un enfant --- Il ne sait pas mieux | Il a dix ans --- il a sait qu'il fait    |
+| La criminalité est très peu                    | C'est une criminalité                    |
+| Il y avait des préjugés                        | Des préjugés n'efface pas la criminalité |
+| Il ne va pas réengager la criminalité          | On peut l'enseigne un leçon              |
+| C'est possible que ses parents a mort et il    | C'est plus possible qu'il a menti        |
+| est parti avec sa famille d'adoption           |                                          |
+|------------------------------------------------+------------------------------------------|
+
+
+Situations:
+3, 4, 5
+
+
+3: Overzealous parents eliminating a math teacher
+1: Le travail est fait? 
+2: Oui, vous ne le voyons dans le futur.
+1: Et la preuve?
+2: Quelles preuves?
+1: Parfait. Combien nous vous devons?
+2: Je n'ai pas dû le lutte, donc, je pense $5000?
+1: Oui, ce n'est pas un problème. Et la... prevue, c'est dans la lac, non? Et vous êtes sûr qu'il ne peut nous dérange?
+2: Je suis sûr, oui, je les ai y met.
+1: Très bon. C'était la dernière fois la prof de maths de notre fils l'échoue.
+2: Plaisir de faire des affaires avec vous!
+
+4: Prolog to #3 
+1: Bonjour!
+2: Bonjour. Vous êtes travail dans l'Agency, non?
+1: Oui, j'y travail. Vous avez un travail pour moi?
+2: On peut le dit.
+1: Alors, qui voulons-vous de je doivais mettre "hors de l'image," on dit
+2: Mon fils, il a échoué sa classe de maths, et nous blâme son prof. 
+1: Vous ne pensez pas que votre réaction est un peu sérieux? Je lui ai téléphoné autrefois, et je l'aimais.
+2: Oui, c'est le réaction appropriée.
+
+5: Debt to icelandic mafia
+1: Paul! Comment as-tu blessé ton bra?
+2: J'ai appelé qu

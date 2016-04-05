@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.4.3)  3 APR 2016 23:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.4.3)  5 APR 2016 18:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -372,16 +372,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ” in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--69
 
  []
 
 [2] (./4.2.aux) ) 
 Here is how much of TeX's memory you used:
- 3851 strings out of 493054
- 52699 string characters out of 6140587
- 131126 words of memory out of 5000000
- 7318 multiletter control sequences out of 15000+600000
+ 3852 strings out of 493054
+ 52705 string characters out of 6140587
+ 132126 words of memory out of 5000000
+ 7319 multiletter control sequences out of 15000+600000
  8716 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,6n,39p,311b,190s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -393,7 +410,7 @@ c/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on 4.2.pdf (3 pages, 123224 bytes).
+Output written on 4.2.pdf (3 pages, 124498 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream

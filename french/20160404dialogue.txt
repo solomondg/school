@@ -21,7 +21,7 @@ Situations:
 2: Quelles preuves?
 1: Parfait. Combien nous vous devons?
 2: Je n'ai pas dû le lutte, donc, je pense $5000?
-1: Oui, ce n'est pas un problème. Et la... prevue, c'est dans la lac, non? Et vous êtes sûr qu'il ne peut nous dérange?
+1: Oui, ce n'est pas un problème. Et la... prevue, c'est dans la lac, non? Et vous êtes sûr qu'il ne peut pas nous dérange?
 2: Je suis sûr, oui, je les ai y met.
 1: Très bon. C'était la dernière fois la prof de maths de notre fils l'échoue.
 2: Plaisir de faire des affaires avec vous!
@@ -38,4 +38,12 @@ Situations:
 
 5: Debt to icelandic mafia
 1: Paul! Comment as-tu blessé ton bra?
-2: J'ai appelé qu
+2: J'ai appelé qu'on ne devrais pas être endetté à le mafia Icelandic
+1: Je ne les connais?
+2: Ils sont vicieux. Je leur volé du argent, et ils ne m'ai pardonné pas.
+1: Et ils coupé son bra?
+2: Oui. J'ai de la chance --- je pouvais y échapper avant ils sont pu en faire plus.
+1: Alors, je suis content que tu n'est pas plus de blessé. 
+2: Ouais. Dit-moi, peux-moi reste chez vous?
+1: Sais pas, pourquoi?
+2: Ils ne me trouvent pas si je reste chez vous

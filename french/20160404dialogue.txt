@@ -47,3 +47,25 @@ Situations:
 2: Ouais. Dit-moi, peux-moi reste chez vous?
 1: Sais pas, pourquoi?
 2: Ils ne me trouvent pas si je reste chez vous
+
+
+
+3: Overzealous parents eliminating a math teacher
+1: Le travail est fait? 
+1: Et la preuve?
+1: Parfait. Combien nous vous devons?
+1: Oui, ce n'est pas un problème. Et la... prevue, c'est dans la lac, non? Et vous êtes sûr qu'il ne peut pas nous dérange?
+1: Très bon. C'était la dernière fois la prof de maths de notre fils l'échoue.
+
+4: Prolog to #3 
+1: Bonjour!
+1: Oui, j'y travail. Vous avez un travail pour moi?
+1: Alors, qui voulons-vous de je doivais mettre "hors de l'image," on dit
+1: Vous ne pensez pas que votre réaction est un peu sérieux? Je lui ai téléphoné autrefois, et je l'aimais.
+
+5: Debt to icelandic mafia
+1: Paul! Comment as-tu blessé ton bra?
+1: Je ne les connais?
+1: Et ils coupé son bra?
+1: Alors, je suis content que tu n'est pas plus de blessé. 
+1: Sais pas, pourquoi?

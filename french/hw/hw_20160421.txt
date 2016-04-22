@@ -1,0 +1,49 @@
+Todo:
+Grammar packet subjunctive
+Read 212
+1+2 214
+Read 216
+1+2+3 218
+Read 220
+1+2 222
+
+214:
+1. 
+    1. e
+    2. c
+    3. b
+    4. a
+    5. f
+    6. d
+2.
+    1. voyage
+    2. soit
+    3. ait
+    4. connaî
+    5. sois
+    6. venisse
+    7. attende
+    8. puissiez
+
+218:
+1.
+    1. a
+    2. a
+    3. b
+    4. a
+    5. b
+    6. a
+3.
+    1. Je reve duquel
+    3. Je ne lesquelles connnais pas
+    4. Duquelles sont très sympas!
+    5. je ne me souviens pas elle
+
+222:
+1.
+    1. apprends
+    2. prends
+    5. connais
+    6. mettons
+    7. ris
+    8. apprendisez

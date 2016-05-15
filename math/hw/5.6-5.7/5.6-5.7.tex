@@ -1,0 +1,175 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{parskip}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\graphicspath{{./}}
+\geometry{letterpaper, portrait, margin=1in}
+\setlength{\parindent}{0pt}
+
+\title{Math 252 Homework\\
+\large Sections 5.1 \& 5.2}
+\date{2016/04/24}
+\author{Solomon Greenberg}
+
+\fancyhf{}
+\pagestyle{fancy}
+
+\lhead{Math 252 Homework --- Section 5.1 \& 5.2}
+\rhead{Solomon Greenberg}
+
+\newcommand{\me}{\mathrm{e}}
+
+
+\begin{document}
+    \pagenumbering{gobble}
+    \newpage
+    \pagenumbering{arabic}
+    \paragraph*{5.6:} 2, 3, 5, 9, 11, 13, 18, 25, 28, 34
+    \paragraph*{5.7:} 1, 2, 7, 11, 15, 17, 21, 25
+    \section*{5.6:\\}
+    \paragraph*{2:\\}
+    $\int x \cos{x} dx$\\
+    $u = x, v' = \cos{x}dx$\\
+    $u' = 1, v = \sin{x}$
+    $\int u\cdot v' = u \cdot v - \int u' \cdot v$\\
+    $\int x\cdot\cos{x}dx = x\cdot \sin{x} - \int 1 \cdot \sin{x}$
+    $= x\cdot \sin{x} - \cos{x}$\\
+
+    \paragraph{3:\\}
+    $\int x \cos{5x} dx$\\
+    $u = \cos {5x}, v = \frac{x^2}{2}$\\
+    $u' = -5\sin{5x}, v' = x$\\
+    $= uv - \int{v \cdot u'}$\\
+    $= \frac{\cos{5x}\cdot x^2}{2} - \int{\frac{x^2 \cdot -5\sin{5x}}{2}}$
+    $= \frac{\cos{5x} + 5x\sin{5x}}{25}$\\ 
+
+    \paragraph{5:\\}
+    $\int \! x \cdot \me^{\frac{x}{2}} \, dr$
+    $u = x, v = 2\me^{\frac{x}{2}}$\\
+    $u' = 1, v' = \me^{\frac{x}{2}}$\\
+
+    $2x\me^{\frac{x}{2}} - \int \, 2\me^{\frac{x}{2}}$\\
+    $= 2x\me^{\frac{x}{2}} - 4\me^{\frac{x}{2}}$\\
+    $= (2x - 4) \cdot \me^{\frac{x}{2}}$\\
+    $2x\me^{\frac{x}{2}}$\\
+
+    \paragraph{9:\\}
+    $u = \ln{\sqrt[3]{x}}, v = x$\\
+    $u' = \frac{1}{3x}, v' = 1$ \\
+    $\ln{\sqrt[3]{x}} \cdot x - \int \, \frac{x}{3x} \! dx$\\
+    $=x\ln{\sqrt[3]{x}} - \frac{x}{3}$\\
+
+    \paragraph*{13:\\}
+    $u = \sin{3x}, v = \frac{\me^{2x}}{2}$\\
+    $u' = 3\cos{3x}, v' = \me^{2x}$
+
+    $\frac{\me^{2x} \sin{3x}}{2} - \int \, \frac{3\me^{2x}\cos{3x}}{2}$\\
+    $= \frac{\me^{2x} \cdot (2\sin{3x}-3\cos{3x})}{13}$\\
+
+    \paragraph*{18:\\}
+    $u = \ln(x), v = 2\sqrt{x}$\\
+    $u' = frac{1}{x}, v' = \frac{1}{\sqrt{x}}$\\
+    $2\ln{x}\sqrt{x} - \int \, \frac{2\sqrt{x}}{x}$\\
+    $=2\ln{x}\sqrt{x} - 4\sqrt{x}$\\
+
+    \paragraph*{25:\\}
+    $y = \sqrt{x}$\\
+    $y' = \frac{x'}{2\sqrt{x}}$\\
+    $2\sqrt{x} y' = x'$\\
+    $2y \! dy = dx$\\
+
+    $\int \! \cos{y} \cdot 2y \, dy = 2 \int \! \cos{y} \cdot y \, dy$\\
+    $u = y, v = \sin(y)$\\
+    $u' = 1, v' = \cos(y)$\\
+    $= 2(y\cdot\sin{y} - \int \, \sin{y})$\\
+    $= 2(y\cdot\sin{y} + \cos{y})$\\
+    $= 2(\sqrt{x}\sin{\sqrt{x}} - \cos{\sqrt{x}})$\\
+    % 2, 3, 5, 9, 11, 13, 18, 25, 28, 34
+    \paragraph*{28:\\}
+    $\int \! \me^{\cos{t}} \cdot \sin{2t} \, dt$\\
+    $= 2\int\!\me^{\cos{t}}\sin{t}\cos{t} \, dt$\\
+    $y = \cos{t}, dy = -\sin{t} \, dt$\\
+    $= -2\int\!\me^{y}\cdot y \, dy$\\
+    $u = y, v = \me^{y}$\\
+    $u' = 1, v' = \me^{y}$\\
+    $= y \cdot \me^{y} - \int\! \me^{y}$\\
+    $= -2(y\cdot\me^{y}-\me^{y})$\\
+
+    \paragraph*{34:\\}
+    $\int\!x^{2} \sin{2x} \, dx$\\
+    $y = x^2$\\
+    $dy = 2x \, dx$\\
+    $\int \! \cos{y^{2}}\, dy$
+    $= \sin{y^{2}}$\\
+    $= \sin{x^{2^{2}}}$\\
+
+    
+    %∫f(g(x)) * g'(x) = ∫f(u)
+    %∫f(u)∫ 
+    %∫uv' = uv - ∫vu' 
+
+    \paragraph*{5.7:} 1, 2, 7, 11, 15, 17, 21, 25
+    \paragraph*{1:\\}
+    $\int\!\sin^{3}x\,dx\cdot\int\!\cos^{2}x\,dx$\\
+    $\int\! \sin^2 x \sin x \cos^2 x \, dx$\\
+    $\int \! (1-\cos^2 x) \cos^2 x \sin x \, dx$\\
+    $y = \cos{x}$\\
+    $dy = -\sin{x} \, dx$\\
+    $=\int\!(1-y^2) y^2 \cdot -dy$\\
+    $=-\int(y^2 - y^4)\,dy$\\
+    $=-\frac{y^3}{3} + \frac{y^5}{5} + C$\\
+    $=-\frac{\cos^3 x}{3} + \frac{\cos^5 x}{5} + C$\\
+
+    \paragraph*{2:\\}
+    $\int\!\cos^5 x \, dx$\\
+    $\cos^2 x = (1 - \sin^2 x)$\\
+    $\int\!(1-\sin^2 x)^2 \cdot \cos{x} \, dx$\\
+    $y = \sin x$\\
+    $dy = -\cos x \, dx$\\
+    $= \int\!(1-y^2) \cdot -dy$\\
+    $= -\int\!(1-y^2)\,dy$\\
+    $= -(y + \frac{y^3}{3})$\\
+    $= -(\sin{x} + \frac{\sin^3 x}{3})$\\
+
+    \paragraph*{7:\\}
+    $\tan^2 x = \sec^2 x - 1$\\
+    $\tan x = -\sqrt{\sec^2 x - 1}$\\
+    $u = \sec{x}$\\
+    $u' = \sec{x}\tan{x}$\\
+
+    $\int\!(\sec^2 x - 1) \tan{x} \sec{x} \, dx$\\
+    $= \int\!(u^2 - 1) \, du$\\
+    $= \frac{u^3}{3} - u$\\
+    $= \frac{\sec^3 {x}}{3} - \sec{x}$\\
+
+    \paragraph*{11:\\}
+    $= \int\!\frac{\sqrt{9 - x^2}}{x^2} \, dx$\\
+    $= \int\!\frac{\sqrt{9 \cos^2 y}}{x^2} \, dx$\\
+    $= \int\!\frac{3 \cos y}{9 \cos^2 y}3 \cos{y} \, dy$\\
+    $= \int\!\frac{\cos^2 y}{\sin^2 y} \, dy$\\
+    $= \int\!\cot^2 y \, dy$\\
+    $= - \cot y - y + C$\\
+    $y = \sin^-1 \frac{x}{3}$\\
+    $= -\frac{\sqrt{9 - x^2}}{x} - \sin^-1 {\frac{x}{3}} + C$\\
+
+    
+    \paragraph*{21:\\}
+    $\int\! \frac{5x + 1}{(2x + 1)(x - 1)} \, dx$\\
+    $\frac{5x + 1}{(2x + 1)(x - 1)} = \frac{A}{2x + 1} + \frac{B}{x - 1}$\\
+    $5x + 1 = A(x-1) + B(2x + 1)$\\
+    $6 = 3B$\\
+    $B = 2$\\
+    $\frac{1}{2} = -\frac{3A}{2}$\\
+    $A = -\frac{1}{3}$\\
+    $\int\! \frac{-\frac{1}{3}}{2x + 1} \, dx + \int\! \frac{2}{x-1}\,dx$\\
+    $= -\frac{\ln{2x +1}}{6} + 2\ln{x-1}$\\
+    
+
+
+\thispagestyle{fancy}
+
+\end{document}
+

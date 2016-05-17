@@ -1,0 +1,77 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{parskip}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{mathtools}
+
+\graphicspath{{./}}
+\geometry{letterpaper, portrait, margin=1in}
+\setlength{\parindent}{0pt}
+
+\singlespacing
+
+\newcommand{\me}{\mathrm{e}}
+\newcommand{\dx}{\mathrm{d}x}
+\newcommand{\dtheta}{\mathrm{d}\theta}
+\newcommand{\md}{\mathrm{d}}
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}%
+
+% Swap the definition of \abs* and \norm*, so that \abs
+% and \norm resizes the size of the brackets, and the 
+% starred version does not.
+\makeatletter
+\let\oldabs\abs
+\def\abs{\@ifstar{\oldabs}{\oldabs*}}
+
+\let\oldnorm\norm
+\def\norm{\@ifstar{\oldnorm}{\oldnorm*}}
+\makeatother
+
+
+\begin{document}
+Note sheet:
+FTC 1:
+if $f$ is contonuous on $[a, b]$, then the function $g$ defined by\\
+$g(x) = \int_{a}^{x} \! f(t) \, \md t \> \,\,\,\, \> \> a \leq x \leq b$\\
+is an antiderivitive of $f$, that is, $g'(x) = f(x)$ for $a < x < b$\\
+Substitution Rule:\\
+$\int \! f(g(x))g'(x)\,\dx = \int \! f(u) \, \md u$\\
+$\int \! x^3 \cos(x^4 + 2) \, \dx$\\
+$u = x^4 + 2$\\
+$\md u = 4x^3\dx$\\
+$\frac{1}{4} \md u = x^3 \dx$\\
+Integration by Parts:\\
+$\int \! f(x)g'(x) \, \dx = f(x)g(x) - \int \! g(x)f'(x) \, \dx$\\
+$\int \! u \, \md v = uv - \int \! v \, \md u$\\
+$\int \! x \sin x \,\dx$\\
+$u = x, u' = 1$\\
+$v = -\cos(x), v' = \sin(x)$\\
+$= -x\cos(x) - \int\!-\cos(x)\,\dx$\\
+$= -x\cos(x) + \sin(x) + C$\\
+FTC 2:\\
+$F(x) = \int_{a}^{x} \! f(t) \, \md t$\\
+Summation:\\
+$\Delta x = \frac{b-a}{N}$\\
+$x_i = a + i\Delta x$\\
+$\bar{x}_i = \frac{1}{2}(x_{i-1} + x_{i})$\\
+$R_{n} = \sum\limits_{i=1}^{N} f(x_i) \cdot \Delta x$\\
+$L_{n} = \sum\limits_{i=0}^{N-1} f(x_i) \cdot \Delta x$
+$M_{n} = \sum\limits_{i=1}^{N} f(\bar{x}_i) \Delta x$\\
+$T_{n} = \frac{1}{2}( \sum\limits_{i=1}^{N}(f(x_{i-1})\Delta x) + \sum\limits_{i=1}^{N}(f(x_i)\Delta x))$\\
+$T_{n} = \frac{\Delta x}{2} [f(x_0) + 2f(x_1) + 2f(x_2) + \cdots + 2f(x_{n-1}) + f(x_n)]$\\
+$S_{n} = \frac{\Delta x}{3} [f(x_0) + 4f(x_1) + 2f(x_2) + 4f(x_3) + \cdots + 2f(x_{n-2}) + 4f(x_{n-1}) + f(x_n)]$\\
+Error:\\
+$\abs{f''(x)} \leq K$ for $a \leq x \leq b$\\
+$\abs{E_T} \leq \frac{K{(b - a)}^3}{12N^2}$\\
+$\abs{E_M} \leq \frac{K{(b - a)}^3}{24N^2}$\\
+$\abs{E_S} \leq \frac{K{(b - a)}^5}{180N^4}$\\
+$\sin{x} = \frac{1}{\csc{x}}, \cos{x} = \frac{1}{\sec{x}}, \csc{x} = \frac{1}{\sin{x}}, \sec{x} = \frac{1}{\cos{x}}, \cot{x} = \frac{1}{\tan{x}}$\\
+$\sin^2{x} = \cos^2{x} = 1$     $1 + \tan^2{x} = \sec^2{x}$      $1 + \cot^2{x} = \csc^2{x}$\\
+$\tan{x} = \frac{\sin{x}}{\cos{x}}, \cot{x} = \frac{\cos{x}}{\sin{x}}$
+\end{document}
+

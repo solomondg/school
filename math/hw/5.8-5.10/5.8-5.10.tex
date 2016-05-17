@@ -1,0 +1,66 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{parskip}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\usepackage{mathtools}
+
+\graphicspath{{./}}
+\geometry{letterpaper, portrait, margin=1in}
+\setlength{\parindent}{0pt}
+
+\title{Math 252 Homework\\
+\large Sections 5.1 \& 5.2}
+\date{2016/04/24}
+\author{Solomon Greenberg}
+
+\fancyhf{}
+\pagestyle{fancy}
+
+\lhead{Math 252 Homework --- Section 5.1 \& 5.2}
+\rhead{Solomon Greenberg}
+
+\newcommand{\me}{\mathrm{e}}
+\newcommand{\dx}{\mathrm{d}x}
+\newcommand{\dtheta}{\mathrm{d}\theta}
+\newcommand{\md}{\mathrm{d}}
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}%
+
+% Swap the definition of \abs* and \norm*, so that \abs
+% and \norm resizes the size of the brackets, and the 
+% starred version does not.
+\makeatletter
+\let\oldabs\abs
+\def\abs{\@ifstar{\oldabs}{\oldabs*}}
+
+\let\oldnorm\norm
+\def\norm{\@ifstar{\oldnorm}{\oldnorm*}}
+\makeatother
+
+
+\begin{document}
+    \pagenumbering{gobble}
+    \newpage
+    \pagenumbering{arabic}
+    \paragraph*{5.8:} 1, 2, 5, 6, 10, 19, 20, 27, 32
+    \paragraph*{5.9:} 1, 2, 4, 6, 9, 12, 16, 18, 19
+    \paragraph*{5.10:} 1, 2, 3, 5, 7, 11, 13, 15, 19, 21, 25, 26, 33, 37, 39, 45
+
+    \section*{5.8:\\}
+    
+    \paragraph*{1:\\}
+    $\int \! \tan^3{\pi x}\,\dx = \frac{1}{2} \tan^2{\pi x} - \ln{\abs{\pi x}} + C$\\
+
+    \paragraph*{2:\\}
+    $\int\! \me^{2 \theta} \sin{3\theta} \, \md \theta = \frac{\me^{2\theta}}{13} \cdot (2 \sin{3\theta} - 3\sin{3\theta})$\\
+
+    
+
+
+\thispagestyle{fancy}
+
+\end{document}
+

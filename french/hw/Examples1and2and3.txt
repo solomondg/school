@@ -1,5 +1,4 @@
-﻿
-1. avant
+﻿1. avant
 2. apres
 3. avant
 4. avant
@@ -8,25 +7,24 @@
 7. avant
 8. apres
 9. avant 
-10. Avant  
+10. avant  
 
 
-1. Vrai
-2. Faux
-3. Faux
-4. Vrai.
-5. Vrai
-6. Vrai
-7. Vrai
-8. Faux
+1. vrai
+2. faux
+3. faux
+4. vrai.
+5. vrai
+6. vrai
+7. vrai
+8. faux
 
 
-4. Questions:
 1. Vingt-quatre ans et étudiant et son taillet
 2. Il pense que la technologie n’est pas la cle à un vie content
 3. Elle est sa amoureux. Ils se recontent dans un jouée
 4. Oui, ils les ont. Ils vont au de fetes étudiantes, des soirées, des repas.
 5. Elle offri un ordinateur
-6.  La musique, les films dans son necteur portable
+6. La musique, les films dans son necteur portable
 7. Elle partir parce qu’elle était secondaire
 8. Il n’y avait qu’une solution. Il pensais qu’il était un esclave à technologie

@@ -1,9 +1,12 @@
 Paragraph 1:
-    1. Où habiterez-vous? Choisissez entre la Belgique, le Luxembourg, et la Suisse et expliquez votre choix. Notez quelques informations intéressants au sujet du pays choisi. 
+    1. 
         J'habiterais en Belgique parce qu'il y a trop des entreprises de haute technologie.
 
-    2. Dans quel domaine travaillerez-vous (sciences, informatique, médecine, commerce, relations internationales, ...)? Pourquoi?
+    2.
         Je pense que je travaillerais dans le domaine d'informatique. C'est une de mes passions, et j'aime travailler aves les ordinateurs et les programmer.
 
-    3. Comment imaginez-vous votre vie personnelle? Serez-vous marié? Aurez-vous des enfants?
+    3.
         Je ne peut pas l'imagine. Je pense que je serais marié, mais je ne peut pas avoir des enfants, mais mes avis peut change.
+
+Paragraph 2:
+    J'imagine que je habiterai en Brussles. Probablement dans un studio,  moins chere qu'un apartement. J'économiserai de l'argent et ferai des investissements. Je travaillerai dans le région des ordinateurs, particulièrement le <<Machine Learning>>. 

@@ -3,10 +3,11 @@ Paragraph 1:
         J'habiterais en Belgique parce qu'il y a trop des entreprises de haute technologie.
 
     2.
-        Je pense que je travaillerais dans le domaine d'informatique. C'est une de mes passions, et j'aime travailler aves les ordinateurs et les programmer.
+        Je pense que je travaillerais dans le domaine d'informatique. C'est une de mes passions, et j'aime travailler aves les ordinateurs et les programmer. Aussi, on peut gagner trop.
 
     3.
         Je ne peut pas l'imagine. Je pense que je serais marié, mais je ne peut pas avoir des enfants, mais mes avis peut change.
 
 Paragraph 2:
-    J'imagine que je habiterai en Brussles. Probablement dans un studio,  moins chere qu'un apartement. J'économiserai de l'argent et ferai des investissements. Je travaillerai dans le région des ordinateurs, particulièrement le <<Machine Learning>>. 
+    J'imagine que je habiterai en Brussles. Probablement dans un studio,  moins chere qu'un apartement. J'économiserai de l'argent et ferai des investissements. Je travaillerai dans le région des ordinateurs, particulièrement le <<Machine Learning>>. Maintenant, j'expérimente avec les <<Neural Nets>>, et c'est un sujet très interessant à moi, donc je pense que j'aimerai faire un carrière de ça. Comme ma vie personnelle, il est probable que je n'aie pas des enfants, mais il est douteux que je sois célibataire. Je pense que c'est aussi probable que je vive modestement et économiserai. 
+

@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{parskip}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{tikz}
+
+\graphicspath{{./}}
+\geometry{letterpaper, portrait, margin=1in}
+\setlength{\parindent}{0pt}
+\fancyhf{}
+\pagestyle{fancy}
+
+\lhead{Bio Fast Plants Data}
+\rhead{Solomon Greenberg}
+
+\newcommand{\me}{\mathrm{e}}
+\newcommand{\dx}{\mathrm{d}x}
+\newcommand{\dtheta}{\mathrm{d}\theta}
+\newcommand{\md}{\mathrm{d}}
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}%
+
+% Swap the definition of \abs* and \norm*, so that \abs
+% and \norm resizes the size of the brackets, and the 
+% starred version does not.
+\makeatletter
+\let\oldabs\abs
+\def\abs{\@ifstar{\oldabs}{\oldabs*}}
+
+\let\oldnorm\norm
+\def\norm{\@ifstar{\oldnorm}{\oldnorm*}}
+\makeatother
+
+
+\begin{document}
+    \pagenumbering{gobble}
+    \newpage
+    \pagenumbering{arabic}
+
+    \begin{tikzpicture}
+
+    \end{tikzpicture}
+
+
+\thispagestyle{fancy}
+
+\end{document}
+

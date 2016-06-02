@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.4.4)  1 JUN 2016 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.4.4)  1 JUN 2016 17:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -401,20 +401,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--145
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 153--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--184
+
+ []
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3] (./6.1-6.2.aux) ) 
+[3]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4] (./6.1-6.2.aux) ) 
 Here is how much of TeX's memory you used:
  4456 strings out of 493054
  62631 string characters out of 6140587
- 148538 words of memory out of 5000000
+ 155538 words of memory out of 5000000
  7915 multiletter control sequences out of 15000+600000
  7357 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,43p,259b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,43p,259b,216s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
 12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dis
@@ -425,10 +442,10 @@ sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb>
-Output written on 6.1-6.2.pdf (3 pages, 104768 bytes).
+Output written on 6.1-6.2.pdf (4 pages, 107691 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 61 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

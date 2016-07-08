@@ -20,16 +20,13 @@ using namespace std;
 
 string promptFile() { // Simply prompts for a file path
     string tmp;
-    cout << "Enter a full path to the results file: " << endl;
     cin >> tmp;
     return tmp;
 }
 
 int endProgram() {
 #ifdef __unix__
-    cout << "Press any key to continue..." << flush;
     system("read -n1");
-    cout << endl;
 #elif defined(_WIN32) || defined(WIN32)
     system("pause");
 #endif
@@ -85,7 +82,6 @@ vector<string> pythonIsSoMuchBetter (string line) { // WHY CAN'T I JUST HAVE LIN
 
     // Debug code
     // for (vector<string>::const_iterator i = vectorMarketing.begin(); i != vectorMarketing.end(); i++) {
-    //     cout << *i << endl;
     // }
 
     return vectorMarketing;
@@ -96,7 +92,6 @@ int main() {
     readFileContents = returnFile(promptFile()); // Read file to readFileContents
 
     if (readFileContents.size() == 0) { // Check to make sure file was read
-        cout << "Error reading file. Please check file path. " << endl;
         endProgram();
         return 1;
     }
@@ -104,12 +99,9 @@ int main() {
     vector<vector<string> > vectorArray; // I can't have '>>'?! What the hell, C++
 
      // If file was read correctly (signified by the program not stopping/erroring), print file and add parsed vectors into vectorArray
-    cout << "Read file contents: " << "\n" << endl;
     for (vector<string>::const_iterator i = readFileContents.begin(); i != readFileContents.end(); i++) {
-        cout << *i << endl; // 'cat' file 
         vectorArray.push_back(pythonIsSoMuchBetter(stripWhiteSpace(*i))); // Parse and stuff, put it all in vectorArray
     }
-    cout << "\n\n\n";
 
     vector<vector<string>*> childNoAd, childYesAd, adultNoAd, adultYesAd; // Make the 4 vectors that'll be filled with the pointers to the appropriate vectors
 
@@ -122,9 +114,47 @@ int main() {
         }
     }
 
-    cout << childYesAd.size() << endl;
 
 
+    /* 
+     * We need to:
+     * 1. Find average of <18 who has watched the ad
+     * 2. Find average of <18 who has not watched the ad
+     * 3. Find average of >=18 who has watched the ad
+     * 4. Find average of >=18 who has not watched the ad
+     * 5. Find average of total
+     */
 
+    float childYesAdAverage, childNoAdAverage, adultYesAdAverage, adultNoAdAverage, totalAverage; // Initialize variables we will use
+    childYesAdAverage = childNoAdAverage = adultYesAdAverage = adultNoAdAverage = totalAverage = 0.0;
+
+    for (int iter = 0; iter<(int)childYesAd.size(); iter++) { // Step 1 + 5
+        childYesAdAverage += stoi((*childYesAd[iter])[3]);
+        totalAverage += stoi((*childYesAd[iter])[3]);
+    }
+    childYesAdAverage /= childYesAd.size();
+
+    for (int iter = 0; iter<(int)childNoAd.size(); iter++) { // 2 + 5
+        childNoAdAverage += stoi((*childNoAd[iter])[3]);
+        totalAverage += stoi((*childNoAd[iter])[3]);
+    }
+    childNoAdAverage /= childNoAd.size();
+
+    for (int iter = 0; iter<(int)adultYesAd.size(); iter++) { // 3 + 5
+        adultYesAdAverage += stoi((*adultYesAd[iter])[3]);
+        totalAverage += stoi((*adultYesAd[iter])[3]);
+    }
+    adultYesAdAverage /= adultYesAd.size();
+
+    for (int iter = 0; iter<(int)adultNoAd.size(); iter++) { // 4 + 5
+        adultNoAdAverage += stoi((*adultNoAd[iter])[3]);
+        totalAverage += stoi((*adultNoAd[iter])[3]);
+    }
+    adultNoAdAverage /= adultNoAd.size();
+
+    totalAverage /= childYesAd.size() + childNoAd.size() + adultYesAd.size() + adultNoAd.size();
+
+
+    endProgram();
     return 0;
 }

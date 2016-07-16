@@ -10,9 +10,10 @@
 
 #include <iostream>
 #include <fstream>
-#include <vector> 
+#include <vector>
 #include <typeinfo>
 #include <string>
+#include <iomanip> 
 
 
 
@@ -20,12 +21,14 @@ using namespace std;
 
 string promptFile() { // Simply prompts for a file path
     string tmp;
+    cout << "Enter the full path to the file:" << endl;
     cin >> tmp;
     return tmp;
 }
 
 int endProgram() {
 #ifdef __unix__
+    cout << "Press return to continue" << flush;
     system("read -n1");
 #elif defined(_WIN32) || defined(WIN32)
     system("pause");
@@ -41,6 +44,7 @@ vector<string> returnFile(string filePath) { // Returns the content of a file (a
         fileContents.push_back(tmpLine);
     }
     file.close();
+    file.clear(ios_base::goodbit);
     return fileContents;
 }
 
@@ -96,7 +100,7 @@ int main() {
         return 1;
     }
 
-    vector<vector<string> > vectorArray; // I can't have '>>'?! What the hell, C++
+    vector<vector<string> > vectorArray; // having to adhere to c++98 is Really Fun! 
 
      // If file was read correctly (signified by the program not stopping/erroring), print file and add parsed vectors into vectorArray
     for (vector<string>::const_iterator i = readFileContents.begin(); i != readFileContents.end(); i++) {
@@ -154,6 +158,14 @@ int main() {
 
     totalAverage /= childYesAd.size() + childNoAd.size() + adultYesAd.size() + adultNoAd.size();
 
+
+    cout << fixed << showpoint; // Set precision of cout to 2
+    cout << setprecision(2);
+    cout << "Average score for subjects under 18 who have not seen the ad:\t" << childNoAdAverage << endl;
+    cout << "Average score for subjects under 18 who have seen the ad:\t" << childYesAdAverage << endl;
+    cout << "Average score for subjects over 18 who have not seen the ad:\t" << adultNoAdAverage << endl;
+    cout << "Average score for subjects over 18 who have seen the ad:\t" << adultYesAdAverage << endl;
+    cout << "Average score for all subjects:\t\t\t\t\t" << totalAverage << endl;
 
     endProgram();
     return 0;

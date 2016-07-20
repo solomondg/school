@@ -16,7 +16,7 @@ using namespace std;
 bool isPrime (long n) // check to see if a number is prime
 {
     long maxToSearch = (long) sqrt(n); // We actually only need to search numbers up to and including √n. Example: √36 = 6, 36's factors are 1*36, 2*18, 3*12, 4*9, and 6*6. 1, 2, 3, 4, and 6 <= 6, all other factors are multiplied by these. 
-    if ((n == 0) or (n % 2 == 0) or (n % 3 == 0)) // Get rid of the easy ones 
+    if ((n == 0) or (n % 2 == 0) or ((n % 3 == 0) and (n != 3))) // Get rid of the easy ones 
         return false;
     long index = 4; // We already tested if n was divisible by 2 or 3, don't want to waste the extra cycles (this is obviously a very performance-oriented application </sarcasm>)
     while (index < maxToSearch)
@@ -28,11 +28,6 @@ bool isPrime (long n) // check to see if a number is prime
     return true;
 }
  
-bool smartass_isPrime()
-{
-    return false;
-}
-
 long power2 (long n) // same as pow(2, n)
 {
     long result = 1;
@@ -49,11 +44,11 @@ vector< vector<long> > mersenne(long topnumber) // return vector of vectors of l
 {
     vector< vector<long> > returnVector;
     vector<long> tmpVector;  // LLVM is yelling at me that generalized initializer lists are incompatible with C++98, so I have to use a tmp vector for the push_back operation (can't just say returnVector.push_back(vector<long> {index, tmpNumber}))
-    long index = 0;
+    long index = 2;
     long tmpNumber = 0; // For storing the (2^n)-1 value in case it's a prime
     while (tmpNumber < topnumber)
     {
-        cout << index << endl;
+        // cout << index << endl;
         tmpNumber = power2(index) - 1;
         if (isPrime(tmpNumber))
         {
@@ -67,7 +62,7 @@ vector< vector<long> > mersenne(long topnumber) // return vector of vectors of l
     return returnVector;
 }
 
-int pad_and_print_n(long n) // Fancy text padding for n-values
+string pad_and_print_n(long n) // Fancy text padding for n-values
 {
     string outputString = "";
     string tmpString = to_string(n);
@@ -75,11 +70,10 @@ int pad_and_print_n(long n) // Fancy text padding for n-values
     {
         outputString += " ";
     }
-    cout << outputString << to_string(n);
-    return 0;
+    return outputString + to_string(n);
 }
 
-int pad_and_print_prime(long n) // Fancy text padding for primes
+string pad_and_print_prime(long n) // Fancy text padding for primes
 {
     string outputString = "";
     string tmpString = to_string(n);
@@ -87,8 +81,7 @@ int pad_and_print_prime(long n) // Fancy text padding for primes
     {
         outputString += " ";
     }
-    cout << outputString << to_string(n);
-    return 0;
+    return outputString + to_string(n);
 }
 
 string pspace(unsigned int n) // return set number of spaces
@@ -106,13 +99,10 @@ int returnToContinue(int blanklines) { // Cross-platform system("pause") equivil
     for (x = 0; x<blanklines; x++) {
         cout << endl;
     }
-    #ifdef __unix__
-        cout << "Press enter to continue..." << flush;
-        //cout << endl;
-        system("read -n1");
-    #elif defined(_WIN32) || defined(WIN32)
-        system("pause");
-    #endif
+    cout << "Press q (or any other key) followed by 'Enter' to quit: " << flush;
+    //cout << endl;
+    string e; // just a temp variable
+    cin >> e;
     return 0;
 }
 
@@ -124,10 +114,10 @@ int main()
     cout << "==              ==============" << endl;
     long topnumber = 100000000000;
     vector< vector<long> >mersenneVector = mersenne(topnumber);
-    for (unsigned long x=0; x<mersenneVector.size(); x++)
+    for (unsigned long x=0; x<mersenneVector.size()-1; x++)
     {
-        cout << pad_and_print_n(mersenneVector[x][0]) << pspace(19) << pad_and_print_prime(mersenneVector[x][1]) << endl;
+        cout << pad_and_print_n(mersenneVector[x][0]) << pspace(19) << pad_and_print_prime(mersenneVector[x][1]) << endl << flush;
     }
-    // returnToContinue(2);
+    returnToContinue(2);
     return 0;
 }

@@ -20,7 +20,7 @@ using namespace std;
 
 
 
-vector<unsigned int> checksums; // Using vectors gives us the flexibility to essentially store the checksums for an indefinite amount of files
+vector<unsigned long> checksums; // Using vectors gives us the flexibility to essentially store the checksums for an indefinite amount of files
 vector<string> filenames;
 
 string promptFile() { // Simply prompts for a file path
@@ -29,6 +29,18 @@ string promptFile() { // Simply prompts for a file path
     cin >> tmp;
     return tmp;
 }
+
+
+int endProgram() {
+#ifdef __unix__
+    cout << "Press return to continue" << flush;
+    system("read -n1");
+#elif defined(_WIN32) || defined(WIN32)
+    system("pause");
+#endif
+    return 0;
+}
+
 
 string wrongFile () // Errors until you enter a valid file path, then returns it
 {
@@ -91,10 +103,12 @@ unsigned int menuPrompt(bool screwedup) // Returns 0 for compute, 1 for verify, 
     cout << "\tB) Verify integrity of specified file" << endl;
     cout << "\tQ) Quit" << endl;
     cin >> selection;
+    cin.clear();
+    fflush(stdin);
     return (tolower(selection) == 'a') ? 0 // Evil multi line ternary thing that works
         : (tolower(selection) == 'b') ? 1
         : (tolower(selection) == 'q') ? 2
-        : menuPrompt(true); // Recursion, yay!
+        : menuPrompt(true); // Recursion, yay! (well, kind of)
 }
 
 unsigned int checksumFile(vector<char> file)
@@ -113,15 +127,15 @@ int menuParse(int selection)
     string tmpStringName;
     vector<char> tmpVectorFile;
     int tmpChecksum;
-
-    switch (selection){
+    tmpStringFilePath = promptFile();
+    tmpVectorFile = returnFile(tmpStringFilePath, &tmpStringName); // Tmpstringname is needed because the user could enter a wrong file and pointers allows us to not have to reassign the variable which can be confusing
+    tmpChecksum = checksumFile(tmpVectorFile);
+    cout << tmpChecksum << endl;
+    bool endChecking = false; // If set to true, we assume we already did something and we don't need to push_back the new checksum.
+    switch (selection)
+    {
         case 0:
-            tmpStringFilePath = promptFile();
-            tmpVectorFile = returnFile(tmpStringFilePath, &tmpStringName); // Tmpstringname is needed because the user could enter a wrong file
-            tmpChecksum = checksumFile(tmpVectorFile);
-            bool breakFor = false;
-            bool breakCase = false;
-            for (unsigned int x=0; x<filenames.size() && !breakFor; x++)
+            for (unsigned int x=0; x<filenames.size() && !endChecking; x++)
             {
                 const char *string_1 = filenames[x].c_str();
                 const char *string_2 = tmpStringName.c_str();
@@ -129,13 +143,62 @@ int menuParse(int selection)
                 {
                     char response;
                     cout << "Warning: existing checksum for this file stored" << endl;
-                    cout << "Overwrite? (y/N): " << flush;
-                    cin >> response;
-                    (tolower(response) == 'n') ? breakFor = breakCase = true : breakFor = true;
+                    if (checksums[x] == tmpChecksum)
+                    {
+                        cout << "Old and new checksums match (" << tmpChecksum << "), not doing anything" << endl;
+                        endChecking = true;
+                    }
+                    else
+                    {
+                        cout << "Old and new checksums differ (old: " << checksums[x] << ", new: " << tmpChecksum << "). Overwrite checksum? (y/n) " << flush;
+                        cin >> response;
+                        cin.clear();
+                        fflush(stdin);
+                        if (tolower(response) == 'y')
+                        {
+                            cout << "Overwriting...." << endl;
+                            checksums[x] = tmpChecksum;
+                            cout << "Done! Checksum successfully overwritten" << endl;
+                            cout << endl;
+                        }
+                        endChecking = true;
+                    }
                 }
             }
-            if (breakCase) break;
-            // TODO: Overwrite stuff / push_back if no overwrite
+            if (!endChecking)
+            {
+                cout << "New checksum for file " << tmpStringName << " (" << tmpChecksum << ").\nWriting...." << endl;
+                cout << "Done!" << endl;
+                cout << endl;
+                checksums.push_back(tmpChecksum);
+                filenames.push_back(tmpStringName);
+            }
+            break;
+        case 1:
+            for (unsigned int x=0; x<filenames.size() && !endChecking; x++)
+            {
+                const char *string_1 = filenames[x].c_str();
+                const char *string_2 = tmpStringName.c_str();
+                if (strcmp(string_1, string_2) == 0)
+                {
+                    cout << "Found entry for " << tmpStringName << endl;
+                    cout << "Stored checksum: " << checksums[x] << endl;
+                    cout << "File checksum:   " << tmpChecksum << endl;
+                    if (tmpChecksum == checksums[x])
+                    {
+                        cout << "Checksums match! File verified" << endl;
+                        cout << endl;
+                    }
+                    else
+                    {
+                        cout << "Checksums don't match. File changed" << endl;
+                        cout << endl;
+                    }
+                    endChecking = true;
+                }
+            }
+            break;
+            
     }
     return 0;
 }
@@ -147,6 +210,16 @@ int main()
     while ((selection = menuPrompt(false)) != 2) // We don't want to run menuprompt more than once per while loop
     {
         menuParse(selection);
+        if (checksums.size() != filenames.size())
+        {
+            cout << "Fatal Error! Size of the checksums and the filenames vector differ!" << endl;
+            cout << "Size of vector of checksums: " << checksums.size() << endl;
+            cout << "Size of vector of filenames: " << filenames.size() << endl;
+            cout << "Unrecoverable error: Exiting.";
+            endProgram();
+            return 0;
+        }
     }
+    endProgram();
     return 0;
 }

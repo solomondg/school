@@ -1,0 +1,28 @@
+Objects First with Java
+Barnes and Kolling
+Game Development Essentials
+Novak
+The Game Maker's Apprentice
+Overmars
+C++ Programming: From Problem Analysis...
+Malik
+C++ Programming Lab Manual
+Scholl
+Beginning LINUX Programming
+Stones and Matthew
+C++ Programming: Program Design Including...
+D. S. Malik
+C++ How to Program
+Deitel and Deitel
+Programming and Problem Solving with C++
+Dale, Weems, Headington
+Game Character Development with Maya
+Ward
+Developing Games in Java
+Brackeen
+C# Programming
+Harvey, Robinson, Templeman, Watson
+Java Programming
+Farrell
+Audio for Games
+Brandon

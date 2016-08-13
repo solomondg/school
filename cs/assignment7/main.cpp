@@ -15,6 +15,7 @@
 #include <typeinfo>
 #include <string>
 #include <string.h>
+#include <algorithm>
 #include <iomanip> 
 #include <cstring>
 
@@ -115,7 +116,7 @@ string promptAuthor()
     string author;
     cout << "Name of author: " << flush;
     cin >> author;
-    cout << "\nSearching...\n" << endl;
+    cout << "\nSearching" << flush;
     return author;
 }
 
@@ -124,12 +125,179 @@ string promptTitle()
     string title;
     cout << "Title of book: " << flush;
     cin >> title;
-    cout << "\nSearching...\n" << endl;
+    cout << "\nSearching" << flush;
     return title;
 }
 
+vector<Book *> searchByAuthor(string name)
+{
+    int bookVectorSize = books.size();
+    vector<Book *> foundBooks;
+    for (int x=0; x<bookVectorSize; x++)
+    {
+        if (books[x].author.find(name) != string::npos)
+        {
+            foundBooks.push_back(&books[x]);
+        }
+        cout << "." << flush;
+    }
+    cout << endl << endl;
+    cout << "Total of " << bookVectorSize << " books in database." << endl;
+    cout << "Found " << foundBooks.size() << " books with matching authors.\n" << endl;
+    return foundBooks;
+}
+
+vector<Book *> searchByTitle(string name)
+{
+    int bookVectorSize = books.size();
+    vector<Book *> foundBooks;
+    for (int x=0; x<bookVectorSize; x++)
+    {
+        if (books[x].title.find(name) != string::npos)
+        {
+            foundBooks.push_back(&books[x]);
+        }
+        cout << "." << flush;
+    }
+    cout << endl << endl;
+    cout << "Total of " << bookVectorSize << " books in database." << endl;
+    cout << "Found " << foundBooks.size() << " books with matching titles.\n" << endl;
+    return foundBooks;
+}
+
+inline bool sortComparison(Book * book1, Book * book2, char metric) // compares book titles, case insensitive. Metric can be a or t, a == author, t == title. Inline cause that's apparently faster with GCC
+{
+    return (metric == 't') ? // Evil, I know.
+        ((transform(book1->title.begin(), book1->title.end(),book1->title.begin(), ::toupper) > (transform(book2->title.begin(), book2->title.end(),book2->title.begin(), ::toupper))))
+        : ((transform(book1->author.begin(), book1->author.end(),book1->author.begin(), ::toupper) > (transform(book2->author.begin(), book2->author.end(),book2->author.begin(), ::toupper)))); // is it normal to feel shame while writing code?
+}
+
+bool isSorted(vector<Book *> toCheck, char metric) 
+{
+    for (unsigned int x=1; x<toCheck.size(); x++)
+    {
+        if (!sortComparison(toCheck[x], toCheck[x-1], metric))
+        {
+            cout << "Sort thingy canceled at pos " << x << endl;
+            return false;
+        }
+    }
+    return true;
+}
+
+vector<Book *> bubbleSort(vector<Book *> foundBooks, char metric, bool ascending) // garbage bubble sort
+{
+    Book * tmpBook;
+    while (!isSorted(foundBooks, metric))
+    {
+        for (unsigned int x=1; x<foundBooks.size(); x++)
+        {
+            if (!sortComparison(foundBooks[x], foundBooks[x-1], metric))
+            {
+                tmpBook = foundBooks[x];
+                foundBooks[x] = foundBooks[x-1];
+                foundBooks[x-1] = foundBooks[x];
+            }
+        }
+    }
+
+    if (ascending) return foundBooks; // It's sorted ascending if we want ascending
+    
+    reverse(foundBooks.begin(), foundBooks.end());
+    return foundBooks;
+}
+
+void printBookVector(vector<Book *> bookVector) // Version of the function for vectors of pointers to books
+{
+    for (unsigned int x=0; x<bookVector.size(); x++)
+    {
+        cout << "Book " << x << ": " << endl;
+        cout << "Title: " << bookVector[x]->title << endl;
+        cout << "Author: " << bookVector[x]->author << endl;
+        cout << endl;
+    }
+}
+
+// void printBookVector(vector<Book> bookVector) // Version of the function for vectors of books
+// {
+//     for (unsigned int x=0; x<bookVector.size(); x++)
+//     {
+//         cout << "Book " << x << ": " << endl;
+//         cout << "Title: " << bookVector[x].title << endl;
+//         cout << "Author: " << bookVector[x].author << endl;
+//         cout << endl;
+//     }
+// }
+
 int parser(int response)
 {
+    if (response == 1) // Means the user wants to search by author
+    {
+        string author = promptAuthor();
+        vector<Book *> foundBooks = searchByAuthor(author);
+
+        char sortByTitleOrAuthor;
+        cout << "Sort by author (not title): y/N " << flush;
+        cin >> sortByTitleOrAuthor;
+        cin.clear();
+        fflush(stdin);
+
+        cout << "ascending order (not decending)? Y/n " << flush;
+        char tmpchar;
+        cin >> tmpchar;
+        cin.clear();
+        fflush(stdin);
+
+        vector<Book *> foundBooksSorted = bubbleSort(foundBooks, (sortByTitleOrAuthor == 'y') ? 'a' : 't', !(tmpchar == 'n'));
+        printBookVector(foundBooksSorted);
+        cout << endl;
+    }
+
+    else if (response == 2) // Means the user wants to search by title 
+    {
+        string title = promptTitle();
+        vector<Book *> foundBooks = searchByTitle(title);
+
+        char sortByTitleOrAuthor;
+        cout << "Sort by author (not title): y/N " << flush;
+        cin >> sortByTitleOrAuthor;
+        cin.clear();
+        fflush(stdin);
+
+        cout << "ascending order (not decending)? Y/n " << flush;
+        char tmpchar;
+        cin >> tmpchar;
+        cin.clear();
+        fflush(stdin);
+
+        vector<Book *> foundBooksSorted = bubbleSort(foundBooks, (sortByTitleOrAuthor == 'y') ? 'a' : 't', !(tmpchar == 'n'));
+        printBookVector(foundBooksSorted);
+        cout << endl;
+    }
+
+    else if (response == 3) // Means the user simply wants to print a list of books
+    {
+        vector<Book *> bookPointerVector; // I was stupid and coded everything for option 2/3 using vectors and I don't want to go make overloaded functions cause that is u g l y
+
+        for (unsigned int x=0; x<books.size(); x++) bookPointerVector.push_back(&books[x]); // Just takes the book things and makes them pointers or whatever
+
+        char sortByTitleOrAuthor;
+        cout << "Sort by author (not title): y/N " << flush;
+        cin >> sortByTitleOrAuthor;
+        cin.clear();
+        fflush(stdin);
+
+        cout << "ascending order (not decending)? Y/n " << flush;
+        char tmpchar;
+        cin >> tmpchar;
+        cin.clear();
+        fflush(stdin);
+
+        vector<Book *> sortedBooks = bubbleSort(bookPointerVector, (sortByTitleOrAuthor == 'y') ? 'a' : 't', !(tmpchar == 'n'));
+        printBookVector(sortedBooks);
+        cout << endl;
+    }
+
     return 0;
 }
 
@@ -142,6 +310,7 @@ int main()
     {
         response = menuprompt(false);
         if (response == 0) break;
+        parser(response);
     }
     endProgram();
     return 0;

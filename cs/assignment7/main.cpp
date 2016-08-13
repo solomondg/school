@@ -54,6 +54,16 @@ void greeter()
     cout << "File successfully read." << endl;
 }
 
+int endProgram() {
+#ifdef __unix__
+    cout << "Press return to continue" << flush;
+    system("read -n1");
+#elif defined(_WIN32) || defined(WIN32)
+    system("pause");
+#endif
+    return 0;
+}
+
 int loadData(string pathname) // Populates the vector of books with the Book datatype, based on loaded data.
 {
     ifstream file(pathname.c_str());
@@ -81,8 +91,58 @@ Book lineToBook(string bookLine, string authorLine) // Turns 2 lines from GetLin
     return tmpBook;
 }
 
+int menuprompt(bool screwedup)
+{
+    if (screwedup) cout << "Invalid menu choice. Please try again:" << endl;
+    int selection;
+    cout << "Select an option from the menu: " << endl;
+    cout << "Enter Q to (Q)uit, Search (A)uthor, Search (T)itle, (S)how All: " << flush;
+    char tmpvar;
+    cin >> tmpvar;
+    cin.clear();
+    fflush(stdin);
+
+    selection = (tolower(tmpvar) == 'q') ? 0 // Sets it to the correct thingy
+        :       (tolower(tmpvar) == 'a') ? 1
+        :       (tolower(tmpvar) == 't') ? 2
+        :       (tolower(tmpvar) == 's') ? 3
+        : menuprompt(true);
+    return selection;
+}
+
+string promptAuthor()
+{
+    string author;
+    cout << "Name of author: " << flush;
+    cin >> author;
+    cout << "\nSearching...\n" << endl;
+    return author;
+}
+
+string promptTitle()
+{
+    string title;
+    cout << "Title of book: " << flush;
+    cin >> title;
+    cout << "\nSearching...\n" << endl;
+    return title;
+}
+
+int parser(int response)
+{
+    return 0;
+}
+
 
 int main()
 {
     greeter();
+    int response;
+    while (true)
+    {
+        response = menuprompt(false);
+        if (response == 0) break;
+    }
+    endProgram();
+    return 0;
 }

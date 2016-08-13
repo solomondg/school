@@ -5,13 +5,16 @@
  * 
  * Outside Sources:
  * Previous assignments
- *
- *
+ * http://www.cplusplus.com/reference/algorithm/reverse/
+ * http://www.cplusplus.com/reference/vector/vector/
+ * http://www.cplusplus.com/forum/beginner/53293/
+ * http://www.cplusplus.com/reference/cstring/strcmp/
  */
 
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <stdio.h>
 #include <typeinfo>
 #include <string>
 #include <string.h>
@@ -165,22 +168,28 @@ vector<Book *> searchByTitle(string name)
     return foundBooks;
 }
 
-inline bool sortComparison(Book * book1, Book * book2, char metric) // compares book titles, case insensitive. Metric can be a or t, a == author, t == title. Inline cause that's apparently faster with GCC
+bool sortComparison(Book * book1, Book * book2, char metric) // compares book titles, case insensitive. Metric can be a or t, a == author, t == title.
 {
-    return (metric == 't') ? // Evil, I know.
-        ((transform(book1->title.begin(), book1->title.end(),book1->title.begin(), ::toupper) > (transform(book2->title.begin(), book2->title.end(),book2->title.begin(), ::toupper))))
-        : ((transform(book1->author.begin(), book1->author.end(),book1->author.begin(), ::toupper) > (transform(book2->author.begin(), book2->author.end(),book2->author.begin(), ::toupper)))); // is it normal to feel shame while writing code?
+    Book * book1Backup = book1; // Comparison mechanism is destructive, or at least the test one was and I might be too lazy to change this back
+    Book * book2Backup = book2; 
+
+    if (metric == 't')
+    {
+        if (strcmp(book1Backup->title.c_str(), book2Backup->title.c_str()) > 0) return false;
+        else return true;
+    }
+    else
+    {
+        if (strcmp(book1Backup->author.c_str(), book2Backup->author.c_str()) > 0) return false;
+        else return true;
+    }
 }
 
-bool isSorted(vector<Book *> toCheck, char metric) 
+bool isSorted(vector<Book *> toCheck, char metric)  // just iterates through if at any point no sort, return false it works
 {
     for (unsigned int x=1; x<toCheck.size(); x++)
     {
-        if (!sortComparison(toCheck[x], toCheck[x-1], metric))
-        {
-            cout << "Sort thingy canceled at pos " << x << endl;
-            return false;
-        }
+        if (!sortComparison(toCheck[x], toCheck[x-1], metric)) return false;
     }
     return true;
 }
@@ -196,12 +205,12 @@ vector<Book *> bubbleSort(vector<Book *> foundBooks, char metric, bool ascending
             {
                 tmpBook = foundBooks[x];
                 foundBooks[x] = foundBooks[x-1];
-                foundBooks[x-1] = foundBooks[x];
+                foundBooks[x-1] = tmpBook;
             }
         }
     }
 
-    if (ascending) return foundBooks; // It's sorted ascending if we want ascending
+    if (!ascending) return foundBooks; // It's sorted ascending if we want ascending but i screwed up somewhere so it's actually backwards (shhh)
     
     reverse(foundBooks.begin(), foundBooks.end());
     return foundBooks;
@@ -236,19 +245,23 @@ int parser(int response)
         string author = promptAuthor();
         vector<Book *> foundBooks = searchByAuthor(author);
 
-        char sortByTitleOrAuthor;
-        cout << "Sort by author (not title): y/N " << flush;
-        cin >> sortByTitleOrAuthor;
-        cin.clear();
-        fflush(stdin);
+        if (foundBooks.size() == 0) return 0;
 
-        cout << "ascending order (not decending)? Y/n " << flush;
-        char tmpchar;
-        cin >> tmpchar;
-        cin.clear();
-        fflush(stdin);
+        char tmpchar = 'Y';
+        char sortByTitleOrAuthor = 'n'; // We don't need to sort or whatever if it's just one entry
+        if (foundBooks.size() != 1)
+        {
+            cout << "Sort by author (not title): y/N " << flush;
+            cin >> sortByTitleOrAuthor;
+            cin.clear();
+            fflush(stdin);
 
-        vector<Book *> foundBooksSorted = bubbleSort(foundBooks, (sortByTitleOrAuthor == 'y') ? 'a' : 't', !(tmpchar == 'n'));
+            cout << "ascending order (not decending)? Y/n " << flush;
+            cin >> tmpchar;
+            cin.clear();
+            fflush(stdin);
+        }
+        vector<Book *> foundBooksSorted = bubbleSort(foundBooks, (sortByTitleOrAuthor == 'y') ? 'a' : 't', !(tmpchar == 'n')); // yeah it works
         printBookVector(foundBooksSorted);
         cout << endl;
     }
@@ -258,17 +271,22 @@ int parser(int response)
         string title = promptTitle();
         vector<Book *> foundBooks = searchByTitle(title);
 
-        char sortByTitleOrAuthor;
-        cout << "Sort by author (not title): y/N " << flush;
-        cin >> sortByTitleOrAuthor;
-        cin.clear();
-        fflush(stdin);
+        if (foundBooks.size() == 0) return 0; // we can just exit if the thingy didn't find any books or whatever
 
-        cout << "ascending order (not decending)? Y/n " << flush;
-        char tmpchar;
-        cin >> tmpchar;
-        cin.clear();
-        fflush(stdin);
+        char tmpchar = 'Y';
+        char sortByTitleOrAuthor = 'n'; // We don't need to sort or whatever if it's just one entry
+        if (foundBooks.size() != 1)
+        {
+            cout << "Sort by author (not title): y/N " << flush;
+            cin >> sortByTitleOrAuthor;
+            cin.clear();
+            fflush(stdin);
+
+            cout << "ascending order (not decending)? Y/n " << flush;
+            cin >> tmpchar;
+            cin.clear();
+            fflush(stdin);
+        }
 
         vector<Book *> foundBooksSorted = bubbleSort(foundBooks, (sortByTitleOrAuthor == 'y') ? 'a' : 't', !(tmpchar == 'n'));
         printBookVector(foundBooksSorted);

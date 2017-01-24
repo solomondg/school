@@ -5,4 +5,6 @@
 | Warrant | Explination of why/how data supports claim, underlying assumption connecting data, other term is bridge |                                               |
 | Zeugma  | Word, verb or adjective, applies >1 noun blending together grammmer + logic                             | John lost his coat and his temper.            |
 |         |                                                                                                         | Your paper and presentation were delightful   |
-|---------+---------------------------------------------------------------------------------------------------------+-----------------------------------------------|
+| Fallacy | A failure in reasoning that renders an argument invalid                                                 | Slippery slope                                |
+|         |                                                                                                         | Ad hominem                                    |
+|         |                                                                                                         | Association fallacy                           |

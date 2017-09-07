@@ -1,0 +1,12 @@
+audience purpose tone
+
+audience: what is being said, to whom, how
+purpose: why is it being said
+    persuade, inform, entertain, share
+
+Tone: 
+    Author's attitude towards the topic
+    Expressed through words or details
+
+
+
